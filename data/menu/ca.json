@@ -1,0 +1,9 @@
+{
+  "menuItems": [
+    { "name": "L'espai", "link": "/#espai" },
+    { "name": "Serveis", "link": "/#serveis" },
+    { "name": "Tarifes", "link": "/#tarifes" },
+    { "name": "Coworkers", "link": "/#coworkers" },
+    { "name": "Contacte", "link": "/#contacte" }
+  ]
+}

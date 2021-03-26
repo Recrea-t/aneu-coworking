@@ -1,0 +1,40 @@
+{
+  "title": "Àneu Coworking",
+  "titleTemplate": "%s · Àneu Coworking",
+  "description": "El teu espai de treball compartit al Pallars Sobirà",
+  "siteUrl": "https://aneu-coworking.netlify.com",
+  "image": "/images/Logo.svg",
+  "color": "#E8864B",
+  "author": {
+    "name": "Recrea't",
+    "url": "https://recreat.cat"
+  },
+  "organization": {
+    "name": "Àneu Coworking",
+    "url": "https://recreat.cat",
+    "logo": "/images/icon.png",
+    "email": "marta@recreat.cat",
+    "phone": {
+      "number": 34646429298,
+      "title": "646 429 298"
+    },
+    "address": "Carrer Major</br>25580 Esterri d'Àneu"
+  },
+  "social": {
+    "instagram": {
+      "username": "Recreat_Disseny_Comunicacio",
+      "title": "Instagram",
+      "baseUrl": "https://www.instagram.com/"
+    },
+    "facebook": {
+      "username": "RecreatDissenyComunicacio",
+      "title": "Facebook",
+      "baseUrl": "https://www.facebook.com/"
+    },
+    "linkedin": {
+      "username": "marta-bruna-b5847733",
+      "title": "Twitter",
+      "baseUrl": "https://www.linkedin.com/in/"
+    }
+  }
+}

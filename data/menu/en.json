@@ -1,0 +1,9 @@
+{
+  "menuItems": [
+    { "name": "The Space", "link": "/#space" },
+    { "name": "Services", "link": "/#services" },
+    { "name": "Pricing", "link": "/#pricing" },
+    { "name": "Coworkers", "link": "/#coworkers" },
+    { "name": "Contact", "link": "/#contact" }
+  ]
+}

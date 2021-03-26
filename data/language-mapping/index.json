@@ -1,0 +1,130 @@
+{
+  "languageMapping": [
+    {
+      "ca": {
+        "title": "Inici",
+        "link": "/"
+      },
+      "es": {
+        "title": "Inicio",
+        "link": "/"
+      },
+      "en": {
+        "title": "Home",
+        "link": "/"
+      }
+    },
+    {
+      "ca": {
+        "title": "404",
+        "link": "/404"
+      },
+      "es": {
+        "title": "404",
+        "link": "/404"
+      },
+      "en": {
+        "title": "404",
+        "link": "/404"
+      }
+    },
+    {
+      "ca": {
+        "title": "El nostre espai",
+        "link": "/#espai"
+      },
+      "es": {
+        "title": "Nuestro espacio",
+        "link": "/#espacio"
+      },
+      "en": {
+        "title": "Our space",
+        "link": "/#space"
+      }
+    },
+    {
+      "ca": {
+        "title": "Els nostrs serveis",
+        "link": "/#serveis"
+      },
+      "es": {
+        "title": "Nuestros servicios",
+        "link": "/#servicios"
+      },
+      "en": {
+        "title": "Our services",
+        "link": "/#services"
+      }
+    },
+    {
+      "ca": {
+        "title": "Les nostres tarifes",
+        "link": "/#tarifes"
+      },
+      "es": {
+        "title": "Nuestras tarifas",
+        "link": "/#tarifas"
+      },
+      "en": {
+        "title": "Our Pricing",
+        "link": "/#pricing"
+      }
+    },
+    {
+      "ca": {
+        "title": "Els nostres coworkers",
+        "link": "/#coworkers"
+      },
+      "es": {
+        "title": "Nuestros coworkers",
+        "link": "/#coworkers"
+      },
+      "en": {
+        "title": "Our Coworkers",
+        "link": "/#coworkers"
+      }
+    },
+    {
+      "ca": {
+        "title": "Contacta'ns",
+        "link": "/#contacte"
+      },
+      "es": {
+        "title": "Contacta con nosotros",
+        "link": "/#contacto"
+      },
+      "en": {
+        "title": "Contact us",
+        "link": "/#contact"
+      }
+    },
+    {
+      "ca": {
+        "title": "Avís legal",
+        "link": "/avis-legal"
+      },
+      "es": {
+        "title": "Aviso legal",
+        "link": "/aviso-legal"
+      },
+      "en": {
+        "title": "Legal Note",
+        "link": "/legal-note"
+      }
+    },
+    {
+      "ca": {
+        "title": "Protecció de dades personals",
+        "link": "/proteccio-de-dades"
+      },
+      "es": {
+        "title": "Protección de datos personales",
+        "link": "/proteccion-de-datos"
+      },
+      "en": {
+        "title": "Privacy Policy",
+        "link": "/privacy-policy"
+      }
+    }
+  ]
+}

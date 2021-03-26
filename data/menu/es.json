@@ -1,0 +1,9 @@
+{
+  "menuItems": [
+    { "name": "El espacio", "link": "/#espacio" },
+    { "name": "Servicios", "link": "/#servicios" },
+    { "name": "Tarifas", "link": "/#tarifas" },
+    { "name": "Coworkers", "link": "/#coworkers" },
+    { "name": "Contacto", "link": "/#contacto" }
+  ]
+}
