@@ -10,6 +10,7 @@ const IndexPage = props => {
   const { sections, markdownRemark } = props.data
   const { title, description } = markdownRemark.frontmatter
 
+  console.log(sections)
   return (
     <>
       <SEO title={title} description={description} />

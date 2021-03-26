@@ -6,7 +6,7 @@ import locales from "../../../data/i18n"
 import { useLocale } from "../../hooks/locale"
 import useLanguageMapping from "../useLanguageMapping"
 
-import { Divider, HStack, Link, StackDivider } from "@chakra-ui/react"
+import { HStack, Link, StackDivider } from "@chakra-ui/react"
 
 const Languages = () => {
   // Grab the locale (passed through context) from the Locale Provider
@@ -83,7 +83,7 @@ const Languages = () => {
       </Link>
       <Link
         to="/"
-        title="Spanish"
+        title="Español"
         as={GatsbyLink}
         variant="nav-link"
         onClick={e => {

@@ -1,7 +1,12 @@
 ---
 templateKey: index-page
-title: Graphic Design and Communication
+title: Your working space in the Pyrenees
 description: >-
-  We are a small study in the Pyrenees
+  Som un petit estudi pirinenc de disseny gràfic i comunicació que
+  donem resposta a totes aquelles necessitats d'àmbit comunicatiu que li
+  puguin sorgir a una empresa a partir de solucions gràfiques i digitals
+images:
+  - "/images/01.jpg"
+  - "/images/02.jpg"
 
 ---

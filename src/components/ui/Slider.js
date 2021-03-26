@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react"
 import PropTypes from "prop-types"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import { Box, Container, Center, Image, Text, Icon } from "@chakra-ui/react"
+import { Box, Container, Center, Image, Text } from "@chakra-ui/react"
 
 const BackgroundSlider = ({
   callbacks,
