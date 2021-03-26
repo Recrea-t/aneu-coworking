@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: El teu espai per treballar al Pallars Sobirà
+title: El teu espai per treballar a les Valls d'Àneu
 description: >-
   Som un petit estudi pirinenc de disseny gràfic i comunicació que
   donem resposta a totes aquelles necessitats d'àmbit comunicatiu que li

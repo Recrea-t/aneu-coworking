@@ -23,6 +23,11 @@ const styles = {
       ".slick-list": {
         margin: "0 -2rem",
       },
+      ".slick-arrow": {
+        _before: {
+          //color: "black",
+        },
+      },
     },
   },
 }

@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react"
 import PropTypes from "prop-types"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import { Box, Container, Center, Image, Text } from "@chakra-ui/react"
+import { Box, Center, Image, Text, Heading } from "@chakra-ui/react"
 
 const BackgroundSlider = ({
   callbacks,
@@ -21,6 +21,7 @@ const BackgroundSlider = ({
       position: "absolute",
       zIndex: -10,
       width: "100%",
+      height: "100%",
       margin: 0,
       padding: "none",
       left: 0,
@@ -53,25 +54,26 @@ const BackgroundSlider = ({
               zIndex: 1,
               background:
                 //"linear-gradient(rgba(255, 255, 255, 0) 10%, rgb(255, 255, 255) 90%)",
-                "linear-gradient(175deg, rgba(255, 255, 255, 0) 10%, #fff 90%)",
+                "linear-gradient(178deg, rgba(255, 255, 255, 0) 10%, #fff 90%)",
             }}
             as={GatsbyImage}
+            loading={index ? "eager" : "lazy"}
             alt={title}
             image={getImage(image)}
             style={backgroundStyle}
           />
         </Box>
-        <Container
+        <Box
           ref={subRefs[index]}
           pos="absolute"
-          bottom={8}
+          bottom={[0, null, 8]}
           maxW="320px"
-          fontSize={["2xl", null, "3xl"]}
-          textTransform="uppercase"
+          ml={["1rem", "10%", "20%"]}
+          fontSize={["xl", "2xl", "3xl"]}
           style={subStyle}
         >
-          <Text>{title}</Text>
-        </Container>
+          <Heading as="h1">{title}</Heading>
+        </Box>
       </React.Fragment>
     )
   })
@@ -145,7 +147,7 @@ const BackgroundSlider = ({
   useEffect(initEffect, [])
 
   return (
-    <Box pos="relative" h="calc(100vw / 1.78)">
+    <Box pos="relative" w="full" h="calc(100vh - 198px)">
       {imgs}
     </Box>
   )
@@ -171,12 +173,14 @@ export const Pagination = ({ callbacks }) => {
 
   useEffect(() => {
     callbacks.onChange = (prevIndex, newIndex) => {
-      buttonRefs[prevIndex].current.style.color = "black"
-      //buttonRefs[prevIndex].current.style.transform = "scale(1.0,1.0)"
-      buttonRefs[prevIndex].current.style.opacity = "0.25"
-      buttonRefs[newIndex].current.style.color = "black"
-      //buttonRefs[newIndex].current.style.transform = "scale(1.2, 1.2)"
-      buttonRefs[newIndex].current.style.opacity = "0.75"
+      if (buttonRefs[prevIndex].current) {
+        buttonRefs[prevIndex].current.style.color = "black"
+        buttonRefs[prevIndex].current.style.opacity = "0.25"
+      }
+      if (buttonRefs[newIndex].current) {
+        buttonRefs[newIndex].current.style.color = "black"
+        buttonRefs[newIndex].current.style.opacity = "0.75"
+      }
     }
   }, [])
 

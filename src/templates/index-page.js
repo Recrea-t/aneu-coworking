@@ -10,7 +10,6 @@ const IndexPage = props => {
   const { sections, markdownRemark } = props.data
   const { title, description } = markdownRemark.frontmatter
 
-  console.log(sections)
   return (
     <>
       <SEO title={title} description={description} />
@@ -44,7 +43,6 @@ export const query = graphql`
           childImageSharp {
             gatsbyImageData(
               layout: FULL_WIDTH
-              aspectRatio: 1.78
               placeholder: BLURRED
               formats: [AUTO, WEBP, AVIF]
             )
@@ -71,15 +69,37 @@ export const query = graphql`
               childImageSharp {
                 gatsbyImageData(
                   width: 350
-                  aspectRatio: 1
+                  aspectRatio: 1.33
                   placeholder: BLURRED
                   formats: [AUTO, WEBP, AVIF]
                 )
               }
             }
+            table
+            pricing {
+              title
+              price
+              description
+            }
+            coworkers {
+              title
+              url
+              description
+              image {
+                childImageSharp {
+                  gatsbyImageData(
+                    width: 200
+                    aspectRatio: 1
+                    placeholder: BLURRED
+                    formats: [AUTO, WEBP, AVIF]
+                  )
+                }
+              }
+            }
           }
           fields {
             slug
+            locale
           }
         }
       }
