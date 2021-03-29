@@ -64,6 +64,7 @@ export const query = graphql`
             title
             color
             description
+            contact
             images {
               id
               childImageSharp {

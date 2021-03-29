@@ -13,6 +13,7 @@ import { Flex } from "@chakra-ui/react"
 
 import Header from "./sections/Header"
 import Footer from "./sections/Footer"
+import Scroll from "./ui/Scroll"
 
 const TemplateWrapper = ({ children, pageContext: { locale } }) => {
   const { defaultTitle } = useSiteMetadata()
@@ -32,6 +33,7 @@ const TemplateWrapper = ({ children, pageContext: { locale } }) => {
       <Flex as="main" pos="relative" w="full" direction="column">
         {children}
       </Flex>
+      <Scroll showBelow={250} />
       <Footer title={defaultTitle} />
     </Flex>
   )

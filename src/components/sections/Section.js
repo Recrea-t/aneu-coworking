@@ -19,6 +19,8 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
+import Contact from "./Contact"
+
 const Section = props => {
   const settings = {
     className: "is-slider",
@@ -195,6 +197,12 @@ const Section = props => {
               />
             ))}
           </Slider>
+        </Container>
+      )}
+
+      {props.contact && (
+        <Container mb={8}>
+          <Contact description={props.contact} />
         </Container>
       )}
     </Box>
