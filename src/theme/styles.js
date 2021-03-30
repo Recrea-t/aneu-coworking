@@ -1,19 +1,24 @@
 const styles = {
   global: {
     html: {
-      //scrollBehavior: "smooth",
-      //scrollMarginTop: "6rem",
+      scrollBehavior: "smooth",
     },
     body: {
-      color: "dimGray.500",
+      color: "nightRider.500",
+      fontWeight: "light",
     },
+    ".is-active": {
+      color: "#cccccc !important",
+      textDecoration: "none",
+    },
+		".contact-info": {
+			marginBottom: "2rem",
+			textAlign: "left",
+		},
     ".markdown": {
       li: {
         margin: "0 !important",
       },
-    },
-    "a.is-active": {
-      color: "dimGray.500",
     },
     ".is-slider": {
       ".slick-slide": {

@@ -18,13 +18,30 @@ const Header = () => {
   const [show, setShow] = React.useState(false)
   const toggleMenu = () => setShow(!show)
 
-  return (
-    <VStack as="nav" w="full" p={4} mx="auto" bg="white" color="mangoTango.500">
-      <Languages />
+  const MenuItems = ({ onClick }) => {
+    return (
+      <>
+        {menuItems.map((menu, index) => (
+          <NavLink
+            key={index}
+            to={menu.link}
+            onClick={onClick}
+            isLast={index === 4}
+          >
+            {menu.name}
+          </NavLink>
+        ))}
+      </>
+    )
+  }
 
-      <LocalizedLink to="/" title={home} as={GatsbyLink}>
+  return (
+    <VStack as="nav" w="full" p={4} mx="auto" bg="white" spacing={0}>
+      {isSmallDevice && <Languages />}
+
+      <LocalizedLink to="/" title={home} as={GatsbyLink} mb={[2, null, 8]}>
         <StaticImage
-          src="../../images/LogoRecreat.png"
+          src="../../images/Logo.svg"
           alt="Recrea't"
           loading="eager"
           layout="fixed"
@@ -33,27 +50,19 @@ const Header = () => {
         />
       </LocalizedLink>
 
-      {isSmallDevice ? (
-        <ToggleMenu show={show} toggleMenu={toggleMenu}>
-          {menuItems.map((menu, index) => (
-            <NavLink key={index} to={menu.link} onClick={toggleMenu}>
-              {menu.name}
-            </NavLink>
-          ))}
-        </ToggleMenu>
-      ) : (
-        <Flex
-          align="center"
-          direction="row"
-          justify={{ md: "space-between", lg: "flex-end" }}
-        >
-          {menuItems.map((menu, index) => (
-            <NavLink key={index} to={menu.link}>
-              {menu.name}
-            </NavLink>
-          ))}
-        </Flex>
-      )}
+      <ToggleMenu show={show} toggleMenu={toggleMenu}>
+        <MenuItems onClick={toggleMenu} />
+      </ToggleMenu>
+
+      <Flex
+        align="center"
+        direction="row"
+        justify={{ md: "space-between", lg: "flex-end" }}
+        display={{ base: "none", md: "inherit" }}
+      >
+        <MenuItems />
+        <Languages />
+      </Flex>
     </VStack>
   )
 }

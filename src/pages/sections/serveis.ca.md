@@ -1,6 +1,6 @@
 ---
 order: 1
-color:
+color: "sorbus.500"
 title: Serveis
 description: |-
   Com evident experiència mostra, la debilitat de la nostra memòria, sotsmetent

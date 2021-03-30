@@ -1,9 +1,5 @@
-import "@fontsource/montserrat"
-import "@fontsource/montserrat/100.css" // Thin
-import "@fontsource/montserrat/200.css" // Light
-import "@fontsource/montserrat/600.css" // Semi-bold
-import "@fontsource/montserrat/700.css" // Bold
-import "@fontsource/playfair-display"
+import "@fontsource/montserrat/300.css" // Light
+import "@fontsource/montserrat/500.css" // Medium
 
 import React from "react"
 import useSiteMetadata from "./siteMetadata"

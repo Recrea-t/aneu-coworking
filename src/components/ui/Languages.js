@@ -67,7 +67,7 @@ const Languages = () => {
   }
 
   return (
-    <HStack spacing={1} divider={<StackDivider />}>
+    <HStack spacing={1} divider={<StackDivider borderColor="nightRider.500" />}>
       <Link
         to="/"
         title="Català"
@@ -79,7 +79,7 @@ const Languages = () => {
         }}
         className={locale === "ca" ? "is-active" : ""}
       >
-        CA
+        CAT
       </Link>
       <Link
         to="/"
@@ -105,7 +105,7 @@ const Languages = () => {
         }}
         className={locale === "en" ? "is-active" : ""}
       >
-        EN
+        ENG
       </Link>
     </HStack>
   )

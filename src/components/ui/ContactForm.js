@@ -97,7 +97,8 @@ const ContactForm = () => {
                     type="text"
                     variant="filled"
                     borderRadius={0}
-                    focusBorderColor="dimGray.500"
+                    colorScheme="veryLightGrey"
+                    focusBorderColor="veryLightGrey.700"
                   />
                 </FormControl>
               )}
@@ -113,7 +114,8 @@ const ContactForm = () => {
                     type="email"
                     variant="filled"
                     borderRadius={0}
-                    focusBorderColor="dimGray.500"
+                    colorScheme="veryLightGrey"
+                    focusBorderColor="veryLightGrey.700"
                   />
                 </FormControl>
               )}
@@ -128,7 +130,8 @@ const ContactForm = () => {
                     id="message"
                     variant="filled"
                     borderRadius={0}
-                    focusBorderColor="dimGray.500"
+                    colorScheme="veryLightGrey"
+                    focusBorderColor="veryLightGrey.700"
                     h={40}
                     resize="none"
                   />
@@ -146,11 +149,12 @@ const ContactForm = () => {
                     {...field}
                     id="conditions"
                     size="sm"
-                    colorScheme="dimGray"
+                    colorScheme="nightRider"
+                    fontSize="xs"
                   >
                     {conditionsPart1}
                     <LocalizedLink
-                      fontWeight="semibold"
+                      textTransform="uppercase"
                       to="/proteccio-de-dades"
                     >
                       {privacyPolicy}
@@ -164,7 +168,6 @@ const ContactForm = () => {
 
             <MotionButton
               variant="custom-link"
-              colorScheme="white"
               alignSelf="flex-start"
               type="submit"
               isLoading={props.isSubmitting}

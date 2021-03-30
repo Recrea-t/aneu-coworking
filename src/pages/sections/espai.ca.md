@@ -1,6 +1,6 @@
 ---
 order: 0
-color: "mangoTango.500"
+color: "amulet.500"
 title: L'espai
 description: |-
   Com evident experiència mostra, la debilitat de la nostra memòria, sotsmetent

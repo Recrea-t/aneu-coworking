@@ -1,15 +1,19 @@
 import React, { useEffect, useState, useRef } from "react"
 import PropTypes from "prop-types"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import { Box, Center, Image, Text, Heading } from "@chakra-ui/react"
+import { Box, Center, Image, Text, Heading, Container } from "@chakra-ui/react"
+
+import ReactMarkdown from "react-markdown"
+import ChakraUIRenderer from "chakra-ui-markdown-renderer"
 
 const BackgroundSlider = ({
-  callbacks,
+  callbacks = {},
   images,
   duration,
   transition,
   initDelay,
   title,
+  hero,
 }) => {
   let bgRefs = []
   let subRefs = []
@@ -53,11 +57,10 @@ const BackgroundSlider = ({
               bottom: "-1px",
               zIndex: 1,
               background:
-                //"linear-gradient(rgba(255, 255, 255, 0) 10%, rgb(255, 255, 255) 90%)",
                 "linear-gradient(178deg, rgba(255, 255, 255, 0) 10%, #fff 90%)",
             }}
             as={GatsbyImage}
-            loading={index ? "eager" : "lazy"}
+            loading="eager"
             alt={title}
             image={getImage(image)}
             style={backgroundStyle}
@@ -67,12 +70,22 @@ const BackgroundSlider = ({
           ref={subRefs[index]}
           pos="absolute"
           bottom={[0, null, 8]}
-          maxW="320px"
-          ml={["1rem", "10%", "20%"]}
-          fontSize={["xl", "2xl", "3xl"]}
+          w="full"
           style={subStyle}
         >
-          <Heading as="h1">{title}</Heading>
+          <Container w="full">
+            <Heading
+              as="h1"
+              ml={[0, "7%", "15%"]}
+              fontSize={["1.875rem", null, "2rem"]}
+            >
+              <ReactMarkdown
+                renderers={ChakraUIRenderer()}
+                source={hero}
+                allowDangerousHtml={true}
+              />
+            </Heading>
+          </Container>
         </Box>
       </React.Fragment>
     )
@@ -85,7 +98,7 @@ const BackgroundSlider = ({
   const indexRef = useRef(index)
   indexRef.current = index
 
-  if (callbacks) callbacks.getCount = () => imgs.length
+  callbacks.getCount = () => imgs.length
 
   const clearAndSetTimeoutHandle = newTimeoutHandle => {
     clearTimeout(timeoutHandleRef.current)
@@ -103,7 +116,7 @@ const BackgroundSlider = ({
 
     const length = bgWrappers.length
 
-    const changeIndex = function (newIndex) {
+    const changeIndex = newIndex => {
       const index = indexRef.current
       clearTimeout(timeoutHandleRef.current)
 
@@ -116,9 +129,8 @@ const BackgroundSlider = ({
       subWrappers[newIndex % length].style.opacity = 1
       subWrappers[newIndex % length].style.pointerEvents = "auto"
 
-      if (callbacks && callbacks.onChange) {
-        callbacks.onChange(index, newIndex % length)
-      }
+      callbacks.onChange && callbacks.onChange(index, newIndex % length)
+
       setIndex(newIndex % length)
       clearAndSetTimeoutHandle(setTimeout(callback, duration * 1000))
     }
@@ -130,13 +142,11 @@ const BackgroundSlider = ({
 
     clearAndSetTimeoutHandle(setTimeout(callback, initDelay * 1000))
 
-    if (callbacks) {
-      callbacks.atIndex = changeIndex
+    callbacks.atIndex = changeIndex
 
-      callbacks.next = () => callbacks.atIndex((indexRef.current + 1) % length)
-      callbacks.prev = () =>
-        callbacks.atIndex((indexRef.current + length - 1) % length)
-    }
+    callbacks.next = () => callbacks.atIndex((indexRef.current + 1) % length)
+    callbacks.prev = () =>
+      callbacks.atIndex((indexRef.current + length - 1) % length)
 
     return () => {
       clearTimeout(timeoutHandleRef.current)
@@ -147,9 +157,12 @@ const BackgroundSlider = ({
   useEffect(initEffect, [])
 
   return (
-    <Box pos="relative" w="full" h="calc(100vh - 198px)">
-      {imgs}
-    </Box>
+    <>
+      <Box pos="relative" w="full" h="calc(100vh - 8rem - 92px)">
+        {imgs}
+      </Box>
+      <Pagination callbacks={callbacks} />
+    </>
   )
 }
 
@@ -174,11 +187,11 @@ export const Pagination = ({ callbacks }) => {
   useEffect(() => {
     callbacks.onChange = (prevIndex, newIndex) => {
       if (buttonRefs[prevIndex].current) {
-        buttonRefs[prevIndex].current.style.color = "black"
+        buttonRefs[prevIndex].current.style.color = "#1a1a1a"
         buttonRefs[prevIndex].current.style.opacity = "0.25"
       }
       if (buttonRefs[newIndex].current) {
-        buttonRefs[newIndex].current.style.color = "black"
+        buttonRefs[newIndex].current.style.color = "#1a1a1a"
         buttonRefs[newIndex].current.style.opacity = "0.75"
       }
     }
@@ -198,7 +211,7 @@ export const Pagination = ({ callbacks }) => {
           m="0 5px"
           p={0}
           bg="transparent"
-          color="black"
+          color="nero.500"
           fontSize="3rem"
           lineHeight="20px"
           opacity={index === 0 ? 0.75 : 0.25}

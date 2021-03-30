@@ -3,13 +3,11 @@ import {
   Heading,
   Container,
   Box,
+  VStack,
   Image,
   Stack,
-  HStack,
-  Text,
-  Link,
+  SimpleGrid,
 } from "@chakra-ui/react"
-import { Table, Tbody, Tr, Td } from "@chakra-ui/react"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import ReactMarkdown from "react-markdown"
@@ -21,6 +19,14 @@ import "slick-carousel/slick/slick-theme.css"
 
 import Contact from "./Contact"
 
+import { MotionText } from "../../theme/utils"
+
+import LocalizedLink from "../ui/LocalizedLink"
+import useTranslations from "../../components/useTranslations"
+import PricingCard from "../ui/PricingCard"
+import CoworkerCard from "../ui/CoworkerCard"
+import ServiceItem from "../ui/ServiceItem"
+
 const Section = props => {
   const settings = {
     className: "is-slider",
@@ -28,7 +34,7 @@ const Section = props => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     focusOnSelect: true,
     swipeToSlide: true,
     responsive: [
@@ -50,6 +56,8 @@ const Section = props => {
     ],
   }
 
+  const { moreButton } = useTranslations()
+
   return (
     <Box
       id={props.id}
@@ -62,12 +70,13 @@ const Section = props => {
       px={[0, null, "1rem"]}
     >
       <Box
-        h="10rem"
-        backgroundColor={props.color || "blue.500"}
+        h={["10rem", null, "13.5rem"]}
+        backgroundColor={props.color || "amulet.500"}
         clipPath={{
           base: "polygon(100% 0, 0 0, 0 100%)",
-          md: "polygon(45% 0, 0 0, 0 100%)",
+          md: "polygon(50% 0, 0 0, 0 100%)",
         }}
+        mb={[0, null, 4]}
       >
         <Container h="full" pos="relative">
           <Heading as="h2" variant="is-section">
@@ -88,47 +97,48 @@ const Section = props => {
 
       {props.table && (
         <Container mb={8}>
-          <Container>
-            <Table variant="simple" colorScheme="mangoTango">
-              <Tbody>
-                <Tr>
-                  <Td>inches</Td>
-                  <Td>millimetres (mm)</Td>
-                </Tr>
-              </Tbody>
-            </Table>
-          </Container>
+          <VStack spacing={8}>
+            <SimpleGrid
+              border="1px"
+              borderColor="sorbus.100"
+              w={["full", null, 2 / 3]}
+              columns={[1, null, 2]}
+              spacing={4}
+              p={4}
+            >
+              {props.table.map((item, index) => (
+                <ServiceItem key={index} index={index} title={item} />
+              ))}
+            </SimpleGrid>
+
+            <MotionText whileTap={{ scale: 0.95 }}>
+              <LocalizedLink to="/#contacte" variant="nav-link">
+                {moreButton}
+              </LocalizedLink>
+            </MotionText>
+          </VStack>
         </Container>
       )}
 
       {props.pricing && (
         <Container mb={8}>
-          <Stack
-            direction={{ base: "column", md: "row" }}
-            justify="center"
-            spacing={{ base: 4, md: 8 }}
-          >
-            {props.pricing.map((item, index) => (
-              <Box
-                key={index}
-                shadow="base"
-                alignSelf={{ base: "center", lg: "flex-start" }}
-                color="white"
-                bg="blue.500"
-                p={4}
-              >
-                <Heading as="h4" fontSize="md" mb={2}>
-                  {item.title}
-                </Heading>
-                <Heading as="h5" fontSize="md">
-                  {item.price}
-                </Heading>
-                <Text fontSize="xs" mt={4}>
-                  {item.description}
-                </Text>
-              </Box>
-            ))}
-          </Stack>
+          <VStack spacing={8}>
+            <Stack
+              direction={{ base: "column", md: "row" }}
+              justify="center"
+              spacing={{ base: 4, md: 8 }}
+            >
+              {props.pricing.map((item, index) => (
+                <PricingCard key={index} index={index} {...item} />
+              ))}
+            </Stack>
+
+            <MotionText whileTap={{ scale: 0.95 }}>
+              <LocalizedLink to="/#contacte" variant="nav-link">
+                {moreButton}
+              </LocalizedLink>
+            </MotionText>
+          </VStack>
         </Container>
       )}
 
@@ -140,45 +150,7 @@ const Section = props => {
             spacing={{ base: 4, md: 8 }}
           >
             {props.coworkers.map((item, index) => (
-              <Box
-                key={index}
-                alignSelf={{ base: "center", lg: "flex-start" }}
-                border="1px"
-                borderColor="green.500"
-                p={2}
-              >
-                <HStack spacing={4}>
-                  <Image
-                    cursor="nwse-resize"
-                    clipPath="polygon(50% 0, 100% 0, 100% 50%, 50% 100%, 0 100%, 0 50%)"
-                    transition="clip-path 1s"
-                    _hover={{
-                      clipPath:
-                        "polygon(0 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 0)",
-                    }}
-                    as={GatsbyImage}
-                    image={getImage(item.image)}
-                    alt={item.title}
-                  />
-
-                  <Box>
-                    <Heading as="h4" fontSize="sm" mb={2}>
-                      {item.title}
-                    </Heading>
-                    <Text fontSize="xs" mb={4}>
-                      {item.description}
-                    </Text>
-                    <Link
-                      to={item.url}
-                      title={item.title}
-                      fontSize="xs"
-                      isExternal
-                    >
-                      {item.url}
-                    </Link>
-                  </Box>
-                </HStack>
-              </Box>
+              <CoworkerCard key={index} index={index} {...item} />
             ))}
           </Stack>
         </Container>

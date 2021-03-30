@@ -1,6 +1,6 @@
 ---
 order: 3
-color: "green.500"
+color: "amulet.500"
 title: Coworkers
 coworkers:
   - title: Nom i cognoms

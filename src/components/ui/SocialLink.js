@@ -10,6 +10,7 @@ const SocialLink = props => {
       title={item.title}
       target="_blank"
       rel="noopener"
+      color="white"
       _hover={{
         color: "white.900",
       }}

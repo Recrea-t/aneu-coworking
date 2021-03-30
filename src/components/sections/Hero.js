@@ -1,16 +1,9 @@
 import React from "react"
 
-import BackgroundSlider, { Pagination } from "../ui/Slider"
+import BackgroundSlider from "../ui/Slider"
 
 const Hero = ({ frontmatter }) => {
-  const callbacks = {}
-
-  return (
-    <>
-      <BackgroundSlider {...frontmatter} callbacks={callbacks} />
-      <Pagination callbacks={callbacks} />
-    </>
-  )
+  return <BackgroundSlider {...frontmatter} />
 }
 
 export default Hero

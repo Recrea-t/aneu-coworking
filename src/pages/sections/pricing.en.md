@@ -1,6 +1,6 @@
 ---
 order: 2
-color:
+color: "chambray.500"
 title: Pricing
 description: |-
   Com evident experiència mostra, la debilitat de la nostra memòria, sotsmetent

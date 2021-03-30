@@ -31,11 +31,10 @@ const Scroll = ({ showBelow }) => {
           zIndex="2"
           pos="fixed"
           bottom="2vh"
-          colorScheme="dimGray"
+          colorScheme="nero"
           right={["5%", "5%", "6.5%"]}
           onClick={handleClick}
           aria-label="to top"
-          as="span"
         >
           <TriangleUpIcon />
         </IconButton>

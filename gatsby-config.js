@@ -5,7 +5,13 @@ console.log(config)
 module.exports = {
   siteMetadata: config,
   plugins: [
-    "@chakra-ui/gatsby-plugin",
+    {
+      resolve: "@chakra-ui/gatsby-plugin",
+      options: {
+        isUsingColorMode: false,
+      },
+    },
+    //"gatsby-plugin-preact",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
@@ -13,6 +19,38 @@ module.exports = {
     "gatsby-plugin-robots-txt",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
+    "gatsby-plugin-preload-fonts",
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        name: `Àneu Coworking`,
+        short_name: `Àneu Coworking`,
+        lang: `ca`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#313131`,
+        display: `minimal-ui`,
+        icon: "static/images/icon.png",
+        icon_options: {
+          purpose: `any maskable`,
+        },
+        localize: [
+          {
+            start_url: `/es/`,
+            lang: `es`,
+            name: `Àneu Coworking`,
+            short_name: `Àneu Coworking`,
+          },
+          {
+            start_url: `/en/`,
+            lang: `en`,
+            name: `Àneu Coworking`,
+            short_name: `Àneu Coworking`,
+          },
+        ],
+        //cache_busting_mode: "none",
+      },
+    },
     // The offline plugin must be listed after the manifest plugin
     "gatsby-plugin-offline",
     // keep as first gatsby-source-filesystem plugin for gatsby image support
@@ -102,5 +140,6 @@ module.exports = {
         devMode: false,
       },
     },
+    `gatsby-plugin-postcss`,
   ],
 }

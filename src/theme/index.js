@@ -7,6 +7,7 @@ import shadows from "./foundations/shadows"
 import typography from "./foundations/typography"
 
 // Component style overrides
+import FormLabel from "./components/form-label"
 import Container from "./components/container"
 import Heading from "./components/heading"
 import Button from "./components/button"
@@ -23,6 +24,7 @@ const overrides = {
     Button,
     CloseButton: { ...Button },
     Link,
+    FormLabel,
   },
 }
 

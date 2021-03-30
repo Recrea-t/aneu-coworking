@@ -1,15 +1,15 @@
 export default {
   baseStyle: {
-    fontWeight: "normal",
+    fontWeight: "light",
     textTransform: "uppercase",
   },
   variants: {
     "is-section": {
       pos: "absolute",
-      top: "40%",
+      top: ["24%", null, "34%"],
       transform: "translate(0, -50%)",
       color: "white",
-      fontSize: "2xl",
+      fontSize: "2rem",
       textAlign: "start",
     },
   },

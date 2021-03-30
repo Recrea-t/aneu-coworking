@@ -1,6 +1,6 @@
 ---
 order: 4
-color:
+color: "sorbus.500"
 title: Contacte
 contact: |-
   Com evident experiència mostra, la debilitat de la nostra memòria, sotsmetent

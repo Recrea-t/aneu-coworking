@@ -39,6 +39,7 @@ export const query = graphql`
       frontmatter {
         title
         description
+        hero
         images {
           childImageSharp {
             gatsbyImageData(

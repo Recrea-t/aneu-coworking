@@ -35,8 +35,7 @@ const Contact = props => {
           renderers={ChakraUIRenderer()}
           source={props.description}
           linkTarget="_blank"
-          mb={8}
-          textAlign="left"
+          className="contact-info"
         />
 
         <Text
