@@ -1,6 +1,5 @@
 //const _ = require("lodash")
 const path = require("path")
-const webpack = require(`webpack`)
 const locales = require(`./data/i18n`)
 const {
   localizedSlug,
@@ -8,16 +7,6 @@ const {
   removeTrailingSlash,
 } = require(`./src/utils/gatsby-node-helpers`)
 const { createFilePath } = require("gatsby-source-filesystem")
-
-exports.onCreateWebpackConfig = ({ actions }) => {
-  actions.setWebpackConfig({
-    plugins: [
-      new webpack.IgnorePlugin({
-        resourceRegExp: /^netlify-identity-widget$/,
-      }),
-    ],
-  })
-}
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
