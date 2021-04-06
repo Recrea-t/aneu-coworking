@@ -85,8 +85,14 @@ export const query = graphql`
             }
             coworkers {
               title
-              url
               description
+              url
+              phone
+              email
+              instagram
+              facebook
+              linkedin
+              twitter
               image {
                 childImageSharp {
                   gatsbyImageData(

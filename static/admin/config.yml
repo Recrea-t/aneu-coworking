@@ -7,9 +7,9 @@ backend:
 media_folder: static/images
 public_folder: /images
 
-site_url: https://aneu-coworking.netlify.com
-display_url: https://aneu-coworking.netlify.com
-logo_url: https://aneu-coworking.netlify.com/images/logo.svg
+site_url: https://aneu-coworking.netlify.app
+display_url: https://aneu-coworking.netlify.app
+logo_url: https://aneu-coworking.netlify.app/images/Logo.svg
 locale: "ca"
 
 collections:

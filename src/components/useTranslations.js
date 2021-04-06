@@ -33,6 +33,8 @@ const query = graphql`
           translations: childTranslationsJson {
             home
 
+            phoneLink
+
             moreButton
 
             callUs

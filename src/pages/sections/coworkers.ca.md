@@ -6,15 +6,23 @@ coworkers:
   - title: Nom i cognoms
     image: "/images/01.jpg"
     description: ocupació
-    url: https://recreat.cat
+    url: recreat.cat
+    phone: 607761767
+    email: davidgit@pm.me
+    instagram: larosetadegavas
+    facebook: FormatgeriaGavas
+    linkedin: davidgit
+    twitter: davidgit
   - title: Quota setmanal
     image: "/images/01.jpg"
     description: ocupació
-    url: https://recreat.cat
+    instagram: larosetadegavas
   - title: Nom i cognoms
     image: "/images/01.jpg"
     description: ocupació
-    url: https://recreat.cat
+    url: recreat.cat
+    phone: 607761767
+    email: davidgit@pm.me
 
 ---
 
