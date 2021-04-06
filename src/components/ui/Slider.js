@@ -1,5 +1,4 @@
 import React, { useEffect, useState, useRef } from "react"
-import PropTypes from "prop-types"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { Box, Center, Image, Text, Heading, Container } from "@chakra-ui/react"
 
@@ -8,10 +7,10 @@ import ChakraUIRenderer from "chakra-ui-markdown-renderer"
 
 const BackgroundSlider = ({
   callbacks = {},
+  duration = 5,
+  transition = 2,
+  initDelay = 5,
   images,
-  duration,
-  transition,
-  initDelay,
   title,
   hero,
 }) => {
@@ -158,25 +157,12 @@ const BackgroundSlider = ({
 
   return (
     <>
-      <Box pos="relative" w="full" h="calc(100vh - 8rem - 92px)">
+      <Box pos="relative" w="full" h="calc(100vh - 5.5rem - 92px)">
         {imgs}
       </Box>
-      <Pagination callbacks={callbacks} />
+      {/*<Pagination callbacks={callbacks} />*/}
     </>
   )
-}
-
-BackgroundSlider.defaultProps = {
-  duration: 5,
-  transition: 2,
-  initDelay: 5,
-}
-
-BackgroundSlider.propTypes = {
-  images: PropTypes.arrayOf(PropTypes.object),
-  duration: PropTypes.number,
-  transition: PropTypes.number,
-  initDelay: PropTypes.number,
 }
 
 export default BackgroundSlider

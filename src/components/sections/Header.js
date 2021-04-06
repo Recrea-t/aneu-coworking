@@ -4,7 +4,7 @@ import useTranslations from "../useTranslations"
 
 import { Link as GatsbyLink } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import { Flex, useBreakpointValue, VStack } from "@chakra-ui/react"
+import { Flex, VStack } from "@chakra-ui/react"
 
 import NavLink from "../ui/NavLink"
 import ToggleMenu from "../ui/ToggleMenu"
@@ -14,7 +14,6 @@ import LocalizedLink from "../ui/LocalizedLink"
 const Header = () => {
   const menuItems = useMenu()
   const { home } = useTranslations()
-  const isSmallDevice = useBreakpointValue({ base: true, md: false })
   const [show, setShow] = React.useState(false)
   const toggleMenu = () => setShow(!show)
 
@@ -37,7 +36,7 @@ const Header = () => {
 
   return (
     <VStack as="nav" w="full" p={4} mx="auto" bg="white" spacing={0}>
-      {isSmallDevice && <Languages />}
+      <Languages display={{ base: "inherit", md: "none" }} />
 
       <LocalizedLink to="/" title={home} as={GatsbyLink} mb={[2, null, 8]}>
         <StaticImage
@@ -57,7 +56,7 @@ const Header = () => {
       <Flex
         align="center"
         direction="row"
-        justify={{ md: "space-between", lg: "flex-end" }}
+        justify={{ base: "space-between", lg: "flex-end" }}
         display={{ base: "none", md: "inherit" }}
       >
         <MenuItems />

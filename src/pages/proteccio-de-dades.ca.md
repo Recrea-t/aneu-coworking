@@ -1,5 +1,6 @@
 ---
 templateKey: general-page
+name: Pàgina de la política de protecció de dades
 title: Política de protecció de dades
 description: Política de protecció de dades personals
 ---

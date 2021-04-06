@@ -23,13 +23,15 @@ const PricingCard = props => {
   return (
     <MotionBox
       ref={ref}
+      h="full"
+      w="full"
+      minW="310px"
+      p={4}
       shadow="base"
-      alignSelf={{ base: "center", lg: "flex-start" }}
       color="white"
       bg="chambray.500"
       textAlign="justify"
       fontSize="xs"
-      p={4}
       {...motionRevealConfig(controls, "bottom", index)}
     >
       <Heading as="h3" fontSize="sm" mb={2}>

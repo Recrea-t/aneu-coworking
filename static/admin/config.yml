@@ -3,6 +3,7 @@ backend:
     repo: recrea-t/aneu-coworking
     branch: main
 
+local_backend: true
 
 media_folder: static/images
 public_folder: /images
@@ -10,71 +11,246 @@ public_folder: /images
 site_url: https://aneu-coworking.netlify.app
 display_url: https://aneu-coworking.netlify.app
 logo_url: https://aneu-coworking.netlify.app/images/Logo.svg
+
+show_preview_links: false
+
 locale: "ca"
+i18n:
+  # Required and can be one of multiple_folders, multiple_files or single_file
+  # multiple_folders - persists files in `<folder>/<locale>/<slug>.<extension>`
+  # multiple_files - persists files in `<folder>/<slug>.<locale>.<extension>`
+  # single_file - persists a single file in `<folder>/<slug>.<extension>`
+  structure: multiple_files
+  locales: [ca, es, en]
+  default_locale: ca
+
 
 collections:
-    #Sections (Catalan)
-    - name: 'sections-ca' # Used in routes, e.g., /admin/collections/blog
-      label: 'Seccions (Català)' # Used in the UI
-      folder: 'src/pages/sections' # The path to the folder where the documents are stored
-      create: false # Allow users to create new documents in this collection
-      slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-      extension: 'ca.md'
+    #Pages
+    - name: 'seo' # Used in routes, e.g., /admin/collections/blog
+      label: 'SEO' # Used in the UI
+      description: 'Modifica els camps importants per al SEO de cadascuna de les pàgines del lloc web.'
+      summary: '{{name}}'
+      folder: 'src/pages'
+      extension: 'md'
       format: frontmatter
+      create: false
+      delete: false
+      editor:
+        preview: false
+      i18n: true
       fields: # The fields for each document, usually in front matter
-          - { label: 'Títol', name: 'title', widget: 'string' }
+        - { label: 'Títol (SEO)', name: 'title', widget: 'string', i18n: true}
+        - { label: 'Descripció (SEO)', name: 'description', widget: 'text', i18n: true }
 
-    #Sections (Spanish)
-    - name: 'sections-es' # Used in routes, e.g., /admin/collections/blog
-      label: 'Secciones (Español)' # Used in the UI
-      folder: 'src/pages/sections' # The path to the folder where the documents are stored
-      create: false # Allow users to create new documents in this collection
-      slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-      extension: 'es.md'
+    #Sections
+    - name: 'sections' # Used in routes, e.g., /admin/collections/blog
+      label: 'Seccions' # Used in the UI
       format: frontmatter
-      fields: # The fields for each document, usually in front matter
-          - { label: 'Título', name: 'title', widget: 'string' }
+      editor:
+        preview: false
+      i18n:
+        structure: single_file
+      files:
+        - name: 'hero'
+          label: 'Capcelera'
+          file: 'src/pages/sections/hero.md'
+          i18n: true
+          fields: #
+            - label: Text
+              name: hero
+              widget: markdown
+              i18n: true
+            - label: Imatges
+              name: images
+              summary: '/static{{fields.image}}'
+              minimize_collapsed: true
+              widget: list
+              min: 1
+              max: 3
+              field: {label: Imatge, name: image, widget: image}
+        - name: 'space'
+          label: "L'espai"
+          file: 'src/pages/sections/space.md'
+          i18n: true
+          fields:
+            - name: id
+              label: Id
+              widget: hidden
+              i18n: true
+            - name: color
+              label: Color
+              widget: hidden
+              i18n: duplicate
+              default: 'amulet.500'
+            - label: Títol
+              name: title
+              widget: string
+              i18n: true
+            - label: Descripció
+              name: description
+              widget: markdown
+              i18n: true
+            - label: Imatges
+              name: images
+              summary: '/static{{fields.image}}'
+              minimize_collapsed: true
+              widget: list
+              min: 3
+              field: {label: Imatge, name: image, widget: image}
+        - name: services
+          label: "Serveis"
+          file: 'src/pages/sections/services.md'
+          i18n: true
+          fields:
+            - name: id
+              label: Id
+              widget: hidden
+              i18n: true
+            - name: color
+              label: Color
+              widget: hidden
+              i18n: duplicate
+              default: 'sorbus.500'
+            - label: Títol
+              name: title
+              widget: string
+              default: Serveis
+              i18n: true
+            - label: Descripció
+              name: description
+              widget: markdown
+              i18n: true
+            - label: Serveis
+              name: table
+              widget: list
+              i18n: true
+              summary: '{{fields.title}}'
+              field: { label: servei, name: title, widget: string, i18n: true }
+        - name: 'pricing'
+          label: "Tarifes"
+          file: 'src/pages/sections/pricing.md'
+          i18n: true
+          fields:
+            - name: id
+              label: Id
+              widget: hidden
+              i18n: true
+            - name: color
+              label: Color
+              widget: hidden
+              i18n: duplicate
+              default: 'chambray.500'
+            - label: Títol
+              name: title
+              widget: string
+              default: Tarifes
+              i18n: true
+            - label: Descripció
+              name: description
+              widget: markdown
+              i18n: true
+            - label: Tarifes
+              name: pricing
+              widget: list
+              i18n: true
+              fields:
+                - label: Nom
+                  name: title
+                  widget: string
+                  i18n: true
+                - label: Preu
+                  name: price
+                  widget: string
+                  i18n: true
+                  default: XX,YY €/mes
+                - label: Descripció
+                  name: description
+                  widget: string
+                  i18n: true
+        - name: 'coworkers'
+          label: "Coworkers"
+          file: 'src/pages/sections/coworkers.md'
+          i18n: true
+          fields:
+            - name: id
+              label: Id
+              widget: hidden
+              i18n: true
+              default: coworkers
+            - name: color
+              label: Color
+              widget: hidden
+              i18n: duplicate
+              default: 'amulet.500'
+            - label: Títol
+              name: title
+              widget: string
+              default: Coworkers
+              i18n: true
+            - label: Coworkers
+              name: coworkers
+              widget: list
+              i18n: true
+              fields:
+                - label: Nom
+                  name: title
+                  widget: string
+                - label: Descripció
+                  name: description
+                  widget: string
+                  i18n: true
+                - label: Imatge
+                  name: image
+                  widget: image
+                  allow_multiple: false
+                  media_folder: coworkers
+                - label: Website
+                  hint: "Introdueix l'adreça sense el **https://**"
+                  required: false
+                  name: url
+                  widget: string
+                - label: Telèfon
+                  required: false
+                  name: phone
+                  widget: number
+                  value_type: int
+                - label: "Usuari d'Instagram"
+                  required: false
+                  name: instagram
+                  widget: string
+                - label: "Usuari de Facebook"
+                  required: false
+                  name: facebook
+                  widget: string
+                - label: "Usuari de Linkedin"
+                  required: false
+                  name: linkedin
+                  widget: string
+                - label: "Usuari de Twitter"
+                  required: false
+                  name: twitter
+                  widget: string
+        - name: 'contact'
+          label: "Contacte"
+          file: 'src/pages/sections/contact.md'
+          i18n: true
+          fields:
+            - name: id
+              label: Id
+              widget: hidden
+              i18n: true
+            - name: color
+              label: Color
+              widget: hidden
+              i18n: duplicate
+              default: 'sorbus.500'
+            - label: Títol
+              name: title
+              widget: string
+              i18n: true
+            - label: Descripció
+              name: contact
+              widget: markdown
+              i18n: true
 
-    #Sections (English)
-    - name: 'sections-en' # Used in routes, e.g., /admin/collections/blog
-      label: 'Sections (English)' # Used in the UI
-      folder: 'src/pages/sections' # The path to the folder where the documents are stored
-      create: false # Allow users to create new documents in this collection
-      slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-      extension: 'en.md'
-      format: frontmatter
-      fields: # The fields for each document, usually in front matter
-          - { label: 'Title', name: 'title', widget: 'string' }
-
-    #Pages (Catalan)
-    - name: 'pages-ca' # Used in routes, e.g., /admin/collections/blog
-      label: 'SEO (Català)' # Used in the UI
-      folder: 'src/pages' # The path to the folder where the documents are stored
-      slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-      extension: 'ca.md'
-      format: frontmatter
-      fields: # The fields for each document, usually in front matter
-          - { label: 'Títol (SEO)', name: 'title', widget: 'string' }
-          - { label: 'Descripció (SEO)', name: 'description', widget: 'text' }
-
-    #Pages (Spanish)
-    - name: 'pages-es' # Used in routes, e.g., /admin/collections/blog
-      label: 'SEO (Español)' # Used in the UI
-      folder: 'src/pages' # The path to the folder where the documents are stored
-      slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-      extension: 'es.md'
-      format: frontmatter
-      fields: # The fields for each document, usually in front matter
-          - { label: 'Título (SEO)', name: 'title', widget: 'string' }
-          - { label: 'Descripción (SEO)', name: 'description', widget: 'text' }
-
-    #Pages (English)
-    - name: 'pages-en' # Used in routes, e.g., /admin/collections/blog
-      label: 'SEO (English)' # Used in the UI
-      folder: 'src/pages' # The path to the folder where the documents are stored
-      slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-      extension: 'en.md'
-      format: frontmatter
-      fields: # The fields for each document, usually in front matter
-          - { label: 'Title (SEO)', name: 'title', widget: 'string' }
-          - { label: 'Description (SEO)', name: 'description', widget: 'text' }

@@ -8,7 +8,7 @@ import useLanguageMapping from "../useLanguageMapping"
 
 import { HStack, Link, StackDivider } from "@chakra-ui/react"
 
-const Languages = () => {
+const Languages = props => {
   // Grab the locale (passed through context) from the Locale Provider
   // through useLocale() hoo
   const { locale } = useLocale()
@@ -67,7 +67,11 @@ const Languages = () => {
   }
 
   return (
-    <HStack spacing={1} divider={<StackDivider borderColor="nightRider.500" />}>
+    <HStack
+      display={props.display || "inherit"}
+      spacing={1}
+      divider={<StackDivider borderColor="nightRider.500" />}
+    >
       <Link
         to="/"
         title="Català"

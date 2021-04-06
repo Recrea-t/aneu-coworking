@@ -5,7 +5,6 @@ import {
   Box,
   VStack,
   Image,
-  Stack,
   SimpleGrid,
 } from "@chakra-ui/react"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
@@ -123,15 +122,14 @@ const Section = props => {
       {props.pricing && (
         <Container mb={8}>
           <VStack spacing={8}>
-            <Stack
-              direction={{ base: "column", md: "row" }}
-              justify="center"
+            <SimpleGrid
+              columns={{ base: 1, md: 2, lg: 3 }}
               spacing={{ base: 4, md: 8 }}
             >
               {props.pricing.map((item, index) => (
                 <PricingCard key={index} index={index} {...item} />
               ))}
-            </Stack>
+            </SimpleGrid>
 
             <MotionText whileTap={{ scale: 0.95 }}>
               <LocalizedLink to="/#contacte" variant="nav-link">
@@ -144,15 +142,15 @@ const Section = props => {
 
       {props.coworkers && (
         <Container mb={8}>
-          <Stack
-            direction={{ base: "column", md: "row" }}
-            justify="center"
+          <SimpleGrid
+            justify="space-between"
+            columns={{ base: 1, md: 2, lg: 3 }}
             spacing={{ base: 4, md: 8 }}
           >
             {props.coworkers.map((item, index) => (
               <CoworkerCard key={index} index={index} {...item} />
             ))}
-          </Stack>
+          </SimpleGrid>
         </Container>
       )}
 

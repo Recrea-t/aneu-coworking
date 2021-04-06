@@ -4,6 +4,7 @@ import {
   Box,
   forwardRef,
   VStack,
+  HStack,
   Button,
   GridItem,
   Image,
@@ -75,6 +76,16 @@ export const MotionVStack = motion(
       Object.entries(props).filter(([key]) => !isValidMotionProp(key))
     )
     return <VStack ref={ref} {...chakraProps} />
+  })
+)
+
+export const MotionHStack = motion(
+  forwardRef((props, ref) => {
+    const chakraProps = Object.fromEntries(
+      // do not pass framer props to DOM element
+      Object.entries(props).filter(([key]) => !isValidMotionProp(key))
+    )
+    return <HStack ref={ref} {...chakraProps} />
   })
 )
 
