@@ -1,7 +1,7 @@
 import React from "react"
 import { Link as GatsbyLink, navigate } from "gatsby"
 
-import browserLang from "browser-lang"
+//import browserLang from "browser-lang"
 import locales from "../../../data/i18n"
 import { useLocale } from "../../hooks/locale"
 import useLanguageMapping from "../useLanguageMapping"
@@ -50,12 +50,11 @@ const Languages = props => {
   }
 
   if (typeof window !== "undefined") {
-    let detected =
-      window.localStorage.getItem("gatsby-language") ||
-      browserLang({
-        languages,
-        fallback: defaultLang,
-      })
+    let detected = window.localStorage.getItem("gatsby-language") || "ca"
+    //browserLang({
+    //languages,
+    //fallback: defaultLang,
+    //})
 
     if (!languages.includes(detected)) {
       detected = defaultLang
