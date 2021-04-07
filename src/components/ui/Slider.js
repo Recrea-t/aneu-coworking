@@ -35,8 +35,8 @@ const BackgroundSlider = ({
     }
 
     const subStyle = {
-      opacity: index ? 0 : 1,
-      transition: `opacity ${transition}s`,
+      //opacity: index ? 0 : 1,
+      //transition: `opacity ${transition}s`,
       pointerEvents: index ? "none" : "auto",
     }
 
@@ -157,7 +157,15 @@ const BackgroundSlider = ({
 
   return (
     <>
-      <Box pos="relative" w="full" h="calc(100vh - 5.5rem - 92px)">
+      <Box
+        pos="relative"
+        w="full"
+        minH="360"
+        h={{
+          base: "calc(100vh - 5.5rem - 92px)",
+          md: "calc(100vh - 3.5rem - 92px)",
+        }}
+      >
         {imgs}
       </Box>
       {/*<Pagination callbacks={callbacks} />*/}

@@ -8,13 +8,13 @@ const styles = {
       fontWeight: "light",
     },
     ".is-active": {
-      color: "#cccccc !important",
+      color: "#676767 !important",
       textDecoration: "none",
     },
-		".contact-info": {
-			marginBottom: "2rem",
-			textAlign: "left",
-		},
+    ".contact-info": {
+      marginBottom: "2rem",
+      textAlign: "left",
+    },
     ".markdown": {
       li: {
         margin: "0 !important",
