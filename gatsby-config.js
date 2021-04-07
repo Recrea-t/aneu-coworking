@@ -11,7 +11,7 @@ module.exports = {
         isUsingColorMode: false,
       },
     },
-    //"gatsby-plugin-preact",
+    "gatsby-plugin-preact",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
