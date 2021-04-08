@@ -140,5 +140,6 @@ module.exports = {
         devMode: false,
       },
     },
+    `gatsby-plugin-postcss`,
   ],
 }
