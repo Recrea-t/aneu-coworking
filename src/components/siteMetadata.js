@@ -14,6 +14,7 @@ const useSiteMetadata = () => {
             color
             author {
               name
+              description
               url
             }
             organization {

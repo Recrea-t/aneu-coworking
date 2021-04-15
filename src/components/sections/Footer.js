@@ -5,6 +5,7 @@ import {
   Text,
   StackDivider,
   useBreakpointValue,
+  Link,
 } from "@chakra-ui/react"
 
 import SocialLink from "../ui/SocialLink"
@@ -19,7 +20,7 @@ import useSiteMetadata from "../siteMetadata"
 
 const Footer = props => {
   const { followUs, legalNote, privacyPolicy } = useTranslations()
-  const { social } = useSiteMetadata()
+  const { social, author } = useSiteMetadata()
   const isSmallDevice = useBreakpointValue({ base: true, md: false })
 
   return (
@@ -65,6 +66,20 @@ const Footer = props => {
           {privacyPolicy}
         </LocalizedLink>
       </HStack>
+
+      <Text>
+        DISSENY:{" "}
+        <Link
+          href={author.url}
+          title={author.description}
+          isExternal
+          target="_blank"
+          rel="noopener"
+          color="white"
+        >
+          {author.name}
+        </Link>
+      </Text>
     </Flex>
   )
 }
