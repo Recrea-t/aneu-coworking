@@ -11,6 +11,11 @@ const { createFilePath } = require("gatsby-source-filesystem")
 
 exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
+    resolve: {
+      fallback: {
+        fs: false,
+      },
+    },
     plugins: [
       new webpack.IgnorePlugin({
         resourceRegExp: /^netlify-identity-widget$/,
