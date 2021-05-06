@@ -18,22 +18,21 @@ ca:
   id: espai
 es:
   title: El espacio
-  description: "**Lorem Ipsum** es simplemente el texto de relleno de las
-    imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno
-    estándar de las industrias desde el año 1500.. Duis aute irure dolor in
-    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-    officia deserunt mollit anim id est laborum."
+  description: >-
+    **Àneu Coworking** es un proyecto impulsado por el [Ayuntamiento d’Esterri
+    d’Àneu](https://www.esterrianeu.cat) que pretende dar la oportunidad a
+    empresas, profesionales y emprendedores de construir y participar de una
+    nueva forma de trabajar, basada en la colaboración, la cooperación y el
+    intercambio de ideas y proyectos.
+
+
+    **Àneu Coworking** pretende dotar a las *Valls d'Àneu*, de un espacio confortable, actual y con los equipamientos necesarios para poder desarrollar la actividad laboral de forma adecuada y con un precio asequible, potenciando así la creación de ocupación y la actividad económica y contribuyendo a fijar población en el territorio.
   color: amulet.500
   id: espacio
 en:
   title: The space
-  description: "**Lorem Ipsum** is simply dummy text of the printing and
-    typesetting industry. Lorem Ipsum has been the industry's standard dummy
-    text ever since the 1500s.. Duis aute irure dolor in reprehenderit in
-    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-    anim id est laborum"
+  description: "**Àneu Coworking** is a project from the [Ajuntament d’Esterri
+    d’Àneu](https://www.esterrianeu.cat) whose goal is ...."
   color: amulet.500
   id: space
 ---

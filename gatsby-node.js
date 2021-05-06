@@ -30,7 +30,9 @@ exports.createPages = ({ actions, graphql }) => {
   return graphql(`
     {
       files: allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/(index)/" } }
+        filter: {
+          fileAbsolutePath: { regex: "/(index|404|legal|proteccio|policy)/" }
+        }
       ) {
         edges {
           node {

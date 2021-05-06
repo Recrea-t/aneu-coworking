@@ -90,6 +90,7 @@ const Section = props => {
             components={ChakraUIRenderer()}
             children={props.description}
             linkTarget="_blank"
+            className="markdown"
           />
         </Container>
       )}
@@ -101,7 +102,7 @@ const Section = props => {
               border="1px"
               borderColor="sorbus.100"
               w={["full", null, 2 / 3]}
-              columns={[1, null, 2]}
+              columns={[1, null, 1]}
               spacing={4}
               p={4}
             >

@@ -19,6 +19,10 @@ const styles = {
       li: {
         margin: "0 !important",
       },
+
+      a: {
+        fontWeight: "semibold",
+      },
     },
     ".is-slider": {
       ".slick-slide": {

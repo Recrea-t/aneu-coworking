@@ -36,7 +36,7 @@ const IndexPage = props => {
 
       <Section {...pricing.frontmatter[locale]} />
 
-      <Section {...coworkers.frontmatter[locale]} />
+      {coworkers && <Section {...coworkers.frontmatter[locale]} />}
 
       <Section {...contact.frontmatter[locale]} />
     </>

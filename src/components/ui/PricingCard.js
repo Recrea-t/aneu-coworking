@@ -40,7 +40,7 @@ const PricingCard = props => {
       <Heading as="h4" fontSize="sm">
         {price}
       </Heading>
-      <Text mt={4}>{description}</Text>
+      {description && <Text mt={4}>{description}</Text>}
     </MotionBox>
   )
 }

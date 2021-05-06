@@ -27,21 +27,75 @@ i18n:
 
 collections:
     #Pages
-    - name: 'seo' # Used in routes, e.g., /admin/collections/blog
-      label: 'SEO' # Used in the UI
-      description: 'Modifica els camps importants per al SEO de cadascuna de les pàgines del lloc web.'
-      summary: '{{name}}'
-      folder: 'src/pages'
+    - name: 'pages' # Used in routes, e.g., /admin/collections/blog
+      label: 'Pàgines' # Used in the UI
       extension: 'md'
       format: frontmatter
       create: false
       delete: false
       editor:
         preview: false
-      i18n: true
-      fields: # The fields for each document, usually in front matter
-        - { label: 'Títol (SEO)', name: 'title', widget: 'string', i18n: true}
-        - { label: 'Descripció (SEO)', name: 'description', widget: 'text', i18n: true }
+      files:
+        - name: 'home'
+          label: 'Pàgina principal (CAT)'
+          file: 'src/pages/index.ca.md'
+          fields: #
+            - { label: 'Títol (SEO)', name: 'title', widget: 'string' }
+            - { label: 'Descripció (SEO)', name: 'description', widget: 'text', required: false }
+        - name: 'home-es'
+          label: 'Pàgina principal (ES)'
+          file: 'src/pages/index.es.md'
+          fields: #
+            - { label: 'Títol (SEO)', name: 'title', widget: 'string' }
+            - { label: 'Descripció (SEO)', name: 'description', widget: 'text', required: false }
+        - name: 'home-en'
+          label: 'Pàgina principal (EN)'
+          file: 'src/pages/index.en.md'
+          fields: #
+            - { label: 'Títol (SEO)', name: 'title', widget: 'string' }
+            - { label: 'Descripció (SEO)', name: 'description', widget: 'text', required: false }
+        - name: 'avis-legal'
+          label: 'Pàgina Avís Legal'
+          file: 'src/pages/avis-legal.ca.md'
+          fields: #
+            - { label: 'Títol (SEO)', name: 'title', widget: 'string'}
+            - { label: 'Descripció (SEO)', name: 'description', widget: 'text', required: false }
+            - { label: Cos, name: body, widget: markdown }
+        - name: 'aviso-legal'
+          label: 'Pàgina Aviso Legal'
+          file: 'src/pages/aviso-legal.es.md'
+          fields: #
+            - { label: 'Títol (SEO)', name: 'title', widget: 'string'}
+            - { label: 'Descripció (SEO)', name: 'description', widget: 'text', required: false }
+            - { label: Cos, name: body, widget: markdown }
+        - name: 'legal-note'
+          label: 'Pàgina Legal Note'
+          file: 'src/pages/legal-note.en.md'
+          fields: #
+            - { label: 'Títol (SEO)', name: 'title', widget: 'string'}
+            - { label: 'Descripció (SEO)', name: 'description', widget: 'text', required: false }
+            - { label: Cos, name: body, widget: markdown }
+        - name: 'proteccio-de-dades'
+          label: 'Pàgina Protecció de Dades'
+          file: 'src/pages/proteccio-de-dades.ca.md'
+          fields: #
+            - { label: 'Títol (SEO)', name: 'title', widget: 'string'}
+            - { label: 'Descripció (SEO)', name: 'description', widget: 'text', required: false }
+            - { label: Cos, name: body, widget: markdown }
+        - name: 'proteccion-de-datos'
+          label: 'Pàgina Protección de Datos'
+          file: 'src/pages/proteccion-de-datos.es.md'
+          fields: #
+            - { label: 'Títol (SEO)', name: 'title', widget: 'string'}
+            - { label: 'Descripció (SEO)', name: 'description', widget: 'text', required: false }
+            - { label: Cos, name: body, widget: markdown }
+        - name: 'privacy-policy'
+          label: 'Pàgina Privacy Policy'
+          file: 'src/pages/privacy-policy.en.md'
+          fields: #
+            - { label: 'Títol (SEO)', name: 'title', widget: 'string'}
+            - { label: 'Descripció (SEO)', name: 'description', widget: 'text', required: false }
+            - { label: Cos, name: body, widget: markdown }
 
     #Sections
     - name: 'sections' # Used in routes, e.g., /admin/collections/blog
@@ -166,6 +220,7 @@ collections:
                   default: XX,YY €/mes
                 - label: Descripció
                   name: description
+                  required: false
                   widget: string
                   i18n: true
         - name: 'coworkers'
