@@ -3,15 +3,19 @@ ca:
   id: serveis
   color: sorbus.500
   title: Serveis
-  description: Com evident *experiència* mostra, la debilitat de la nostra
-    memòria, sotsmetent fàcilment a oblivió no solament los actes per longitud
-    de temps envellits, mas encara los **actes frescs de nostres dies**.
+  description: >-
+    Les instal·lacions de l'**Àneu Coworking** disposen d'un espai compartit de
+    98m2 amb un bon nivell d'equipaments i serveis, caracteritzats per la seva
+    flexibilitat i adaptabilitat en modalitats d'ús, espai i horaris i té
+    capacitat per acollir fins a 10 *coworkers* o residents.
+
+
+    L'espai està dividit en tres zones principals:
   table:
-    - Servei 1
-    - Servei 2
-    - Servei 3
-    - Servei 4
-    - Servei 5
+    - Espai de treball equipat amb mobiliari bàsic, impressora, fotocopiadora i
+      escànner compartits, i connexió WIFI a internet amb fibra òptica.
+    - Zona office equipada amb nevera, microones i cafetera.
+    - Sala de reunions equipada amb pissarra i projector.
 es:
   id: servicios
   title: Servicios
