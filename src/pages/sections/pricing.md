@@ -3,9 +3,8 @@ ca:
   id: tarifes
   color: chambray.500
   title: Tarifes
-  description: Com evident experiència mostra, la debilitat de la nostra memòria,
-    sotsmetent fàcilment a oblivió no solament los actes per longitud de temps
-    envellits, mas encara los **actes frescs de nostres dies**.
+  description: "L'espai **Àneu Coworking** funciona amb opció *full time*: Accés
+    de dilluns a diumenge, 24 hores, els 365 dies de l'any."
   pricing:
     - title: Quota setmanal
       price: 30,00 €/setmama
