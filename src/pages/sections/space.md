@@ -1,13 +1,15 @@
 ---
 ca:
   title: L'espai
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-    **veniam**, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-    est laborum.
+  description: >-
+    **Àneu Coworking** és un projecte impulsat per l'[Ajuntament d’Esterri
+    d’Àneu](https://www.esterrianeu.cat) que pretén donar l'oportunitat a
+    empreses, professionals, emprenedores i emprendors de construir i participar
+    d'una nova manera de treballar, basada en la col·laboració, la cooperació i
+    l'intercanvi d'idees i projectes.
+
+
+    **Àneu Coworking** pretén dotar a les Valls d'Àneu, d'un espai confortable, actual i amb els equipaments necessaris per poder desenvolupar l'activitat laboral de manera adequada i amb un preu assequible, potenciant així la creació d'ocupació i l'activitat econòmica i contribuint a fixar població al territori.
   images:
     - /images/01.jpg
     - /images/02.jpg
@@ -34,5 +36,4 @@ en:
     anim id est laborum"
   color: amulet.500
   id: space
-
 ---
