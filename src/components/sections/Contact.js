@@ -9,7 +9,7 @@ import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope"
 import { FaPhone } from "@react-icons/all-files/fa/FaPhone"
 
 import ReactMarkdown from "react-markdown"
-import ChakraUIRenderer from "chakra-ui-markdown-renderer"
+import ChakraUIRenderer from "../../utils/ChakraUIRenderer"
 
 import ContactForm from "../ui/ContactForm"
 
@@ -32,8 +32,8 @@ const Contact = props => {
         mb={[8, null, 0]}
       >
         <ReactMarkdown
-          renderers={ChakraUIRenderer()}
-          source={props.description}
+          components={ChakraUIRenderer()}
+          children={props.description}
           linkTarget="_blank"
           className="contact-info"
         />

@@ -10,7 +10,7 @@ import {
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import ReactMarkdown from "react-markdown"
-import ChakraUIRenderer from "chakra-ui-markdown-renderer"
+import ChakraUIRenderer from "../../utils/ChakraUIRenderer"
 
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
@@ -87,8 +87,8 @@ const Section = props => {
       {props.description && (
         <Container mb={8}>
           <ReactMarkdown
-            renderers={ChakraUIRenderer()}
-            source={props.description}
+            components={ChakraUIRenderer()}
+            children={props.description}
             linkTarget="_blank"
           />
         </Container>

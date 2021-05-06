@@ -3,7 +3,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { Box, Center, Image, Text, Heading, Container } from "@chakra-ui/react"
 
 import ReactMarkdown from "react-markdown"
-import ChakraUIRenderer from "chakra-ui-markdown-renderer"
+import ChakraUIRenderer from "../../utils/ChakraUIRenderer"
 
 const BackgroundSlider = ({
   callbacks = {},
@@ -79,8 +79,8 @@ const BackgroundSlider = ({
               fontSize={["1.875rem", null, "2rem"]}
             >
               <ReactMarkdown
-                renderers={ChakraUIRenderer()}
-                source={hero}
+                components={ChakraUIRenderer()}
+                children={hero}
                 allowDangerousHtml={true}
               />
             </Heading>
