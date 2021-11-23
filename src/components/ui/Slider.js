@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import { Box, Center, Image, Text, Heading, Container } from "@chakra-ui/react"
+import { Box, Center, Image, Heading, Container } from "@chakra-ui/react"
 
 import ReactMarkdown from "react-markdown"
 import ChakraUIRenderer from "../../utils/ChakraUIRenderer"
@@ -15,9 +15,8 @@ const BackgroundSlider = ({
   hero,
 }) => {
   let bgRefs = []
-  let subRefs = []
   let bgWrappers = []
-  let subWrappers = []
+  let buttonRefs = []
 
   const imgs = images.map((image, index) => {
     const backgroundStyle = {
@@ -40,7 +39,6 @@ const BackgroundSlider = ({
       pointerEvents: index ? "none" : "auto",
     }
 
-    subRefs[index] = React.createRef()
     bgRefs[index] = React.createRef()
 
     return (
@@ -65,13 +63,7 @@ const BackgroundSlider = ({
             style={backgroundStyle}
           />
         </Box>
-        <Box
-          ref={subRefs[index]}
-          pos="absolute"
-          bottom={[0, null, 8]}
-          w="full"
-          style={subStyle}
-        >
+        <Box pos="absolute" bottom={[0, null, 8]} w="full" style={subStyle}>
           <Container w="full">
             <Heading
               as="h1"
@@ -109,9 +101,14 @@ const BackgroundSlider = ({
       bgWrappers.push(bgRef.current.firstElementChild)
     })
 
-    subRefs.forEach(subRef => {
-      subWrappers.push(subRef.current)
-    })
+    callbacks.onChange = (prevIndex, newIndex) => {
+      if (buttonRefs[prevIndex].current) {
+        buttonRefs[newIndex].current.style.color = "#005321"
+      }
+      if (buttonRefs[newIndex].current) {
+        buttonRefs[prevIndex].current.style.color = "#ecf9f6"
+      }
+    }
 
     const length = bgWrappers.length
 
@@ -122,13 +119,7 @@ const BackgroundSlider = ({
       bgWrappers[index].style.opacity = 0
       bgWrappers[newIndex % length].style.opacity = 1
 
-      subWrappers[index].style.opacity = 0
-      subWrappers[index].style.pointerEvents = "none"
-
-      subWrappers[newIndex % length].style.opacity = 1
-      subWrappers[newIndex % length].style.pointerEvents = "auto"
-
-      callbacks.onChange && callbacks.onChange(index, newIndex % length)
+      callbacks.onChange(index, newIndex % length)
 
       setIndex(newIndex % length)
       clearAndSetTimeoutHandle(setTimeout(callback, duration * 1000))
@@ -156,72 +147,49 @@ const BackgroundSlider = ({
   useEffect(initEffect, [])
 
   return (
-    <>
-      <Box
-        pos="relative"
-        w="full"
-        minH="360"
-        h={{
-          base: "calc(100vh - 5.5rem - 92px)",
-          md: "calc(100vh - 3.5rem - 92px)",
-        }}
-      >
-        {imgs}
-      </Box>
-      {/*<Pagination callbacks={callbacks} />*/}
-    </>
+    <Box
+      pos="relative"
+      w="full"
+      minH="360"
+      h={{
+        base: "calc(100vh - 5.5rem - 92px)",
+        md: "calc(100vh - 3.5rem - 92px)",
+      }}
+    >
+      {imgs}
+      <Center w="full" pos="absolute" bottom={[0, null, 4]}>
+        {Array.from(Array(callbacks.getCount()).keys()).map(index => (
+          <span
+            key={index}
+            ref={(buttonRefs[index] = React.createRef())}
+            display="inline-block"
+            role="button"
+            cursor="pointer"
+            width="20px"
+            height="20px"
+            margin="0 5px"
+            padding={0}
+            background="transparent"
+            color={index === 0 ? "#1A1A1A" : "#CCCCCC"}
+            fontSize="3rem"
+            lineHeight="20px"
+            opacity={0.75}
+            _hover={{
+              outline: "none",
+              opacity: 1,
+            }}
+            _focus={{
+              outline: "none",
+              opacity: 1,
+            }}
+            onClick={() => callbacks.atIndex(index)}
+          >
+            &middot;
+          </span>
+        ))}
+      </Center>
+    </Box>
   )
 }
 
 export default BackgroundSlider
-
-export const Pagination = ({ callbacks }) => {
-  let buttonRefs = []
-
-  useEffect(() => {
-    callbacks.onChange = (prevIndex, newIndex) => {
-      if (buttonRefs[prevIndex].current) {
-        buttonRefs[prevIndex].current.style.color = "#1a1a1a"
-        buttonRefs[prevIndex].current.style.opacity = "0.25"
-      }
-      if (buttonRefs[newIndex].current) {
-        buttonRefs[newIndex].current.style.color = "#1a1a1a"
-        buttonRefs[newIndex].current.style.opacity = "0.75"
-      }
-    }
-  }, [])
-
-  return (
-    <Center w="full" pb={4}>
-      {Array.from(Array(callbacks.getCount()).keys()).map(index => (
-        <Text
-          key={index}
-          ref={(buttonRefs[index] = React.createRef())}
-          display="inline-block"
-          role="button"
-          cursor="pointer"
-          w="20px"
-          h="20px"
-          m="0 5px"
-          p={0}
-          bg="transparent"
-          color="nero.500"
-          fontSize="3rem"
-          lineHeight="20px"
-          opacity={index === 0 ? 0.75 : 0.25}
-          _hover={{
-            outline: "none",
-            opacity: 1,
-          }}
-          _focus={{
-            outline: "none",
-            opacity: 1,
-          }}
-          onClick={() => callbacks.atIndex(index)}
-        >
-          &middot;
-        </Text>
-      ))}
-    </Center>
-  )
-}
