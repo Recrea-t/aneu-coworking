@@ -18,7 +18,7 @@ import { MotionHStack, motionRevealConfig } from "../../theme/utils"
 
 import useTranslations from "../useTranslations"
 
-import { FaPhoneSquare } from "@react-icons/all-files/fa/FaPhoneSquare"
+import { FaPhoneSquareAlt } from "@react-icons/all-files/fa/FaPhoneSquareAlt"
 import { FaEnvelopeSquare } from "@react-icons/all-files/fa/FaEnvelopeSquare"
 import { FaInstagramSquare } from "@react-icons/all-files/fa/FaInstagramSquare"
 import { FaFacebookSquare } from "@react-icons/all-files/fa/FaFacebookSquare"
@@ -102,7 +102,7 @@ const CoworkerCard = props => {
         <HStack spacing={1}>
           {phone && (
             <Link href={`tel:${phone}`} title={phoneLink} isExternal>
-              <Icon as={FaPhoneSquare} h={5} w={5} />
+              <Icon as={FaPhoneSquareAlt} h={5} w={5} />
             </Link>
           )}
 
