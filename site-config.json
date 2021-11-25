@@ -6,29 +6,29 @@
   "image": "/images/Logo.svg",
   "color": "#313131",
   "author": {
-    "name": "Recrea't",
-    "description": "Recrea't · Disseny gràfic i comunicació",
+    "name": "Recreant",
+    "description": "Recreant · Disseny gràfic i comunicació",
     "url": "https://www.recreat.cat/"
   },
   "organization": {
     "name": "Àneu Coworking",
     "url": "https://www.aneucoworking.cat",
     "logo": "/images/icon.png",
-    "email": "info@aneucoworking.cat",
+    "email": "ajuntament@esterrianeu.cat",
     "phone": {
-      "number": 34973620000,
-      "title": "973 62 00 00"
+      "number": 34973626005,
+      "title": "973 62 60 05"
     },
-    "address": "Carrer Major 5è</br>25580 Esterri d'Àneu (Lleida)"
+    "address": "Carrer Major 6è, 1er pis</br>25580 Esterri d'Àneu (Lleida)"
   },
   "social": {
     "instagram": {
-      "username": "Recreat_Disseny_Comunicacio",
+      "username": "ajuntamentesterridaneu",
       "title": "Instagram",
       "baseUrl": "https://www.instagram.com/"
     },
     "facebook": {
-      "username": "RecreatDissenyComunicacio",
+      "username": "ajuntamentesterridaneu",
       "title": "Facebook",
       "baseUrl": "https://www.facebook.com/"
     }

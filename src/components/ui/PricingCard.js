@@ -23,7 +23,6 @@ const PricingCard = props => {
   return (
     <MotionBox
       ref={ref}
-      h="full"
       w="full"
       minW="310px"
       p={4}

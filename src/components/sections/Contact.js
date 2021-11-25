@@ -6,7 +6,7 @@ import useSiteMetadata from "../siteMetadata"
 import { Flex, Text, Link, VStack, Icon } from "@chakra-ui/react"
 
 import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope"
-import { FaPhone } from "@react-icons/all-files/fa/FaPhone"
+import { FaPhoneAlt } from "@react-icons/all-files/fa/FaPhoneAlt"
 
 import ReactMarkdown from "react-markdown"
 import ChakraUIRenderer from "../../utils/ChakraUIRenderer"
@@ -42,7 +42,7 @@ const Contact = props => {
           mb={4}
           dangerouslySetInnerHTML={{ __html: organization.address }}
         />
-        <Icon as={FaPhone} h={4} w={4} />
+        <Icon as={FaPhoneAlt} h={4} w={4} />
         <Link mb={4} href={`tel:${organization.phone.number}`} title={callUs}>
           {organization.phone.title}
         </Link>

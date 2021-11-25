@@ -18,6 +18,7 @@ ca:
     - Sala de reunions equipada amb pissarra i projector.
 es:
   id: servicios
+  color: sorbus.500
   title: Servicios
   description: "**Lorem Ipsum** es simplemente el texto de relleno de las
     imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno
@@ -28,6 +29,7 @@ es:
     - Servicio 3
 en:
   id: services
+  color: sorbus.500
   title: Services
   description: "**Lorem Ipsum** is simply dummy text of the printing and
     typesetting industry. Lorem Ipsum has been the industry's standard dummy

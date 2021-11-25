@@ -17,6 +17,7 @@ ca:
       description: ""
 es:
   id: tarifas
+  color: chambray.500
   title: Tarifas
   description: "El espacio **Àneu Coworking** funciona con opción *full time*:
     Acceso de lunes a domingo, 24 horas, los 365 dias del año."
@@ -30,6 +31,7 @@ es:
       title: pack 25 horas
 en:
   id: pricing
+  color: chambray.500
   title: Pricing
   description: "**Àneu Coworking** space works 24x7: You will have access from
     Monday to Sunday, 24 hours, 365 days per year."
