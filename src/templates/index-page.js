@@ -184,6 +184,33 @@ export const query = graphql`
         }
       }
     }
+    contact: markdownRemark(
+      fileAbsolutePath: { regex: "/(sections/contact)/" }
+    ) {
+      frontmatter {
+        ca {
+          id
+          title
+          color
+          contact
+        }
+        es {
+          id
+          color
+          title
+          contact
+        }
+        en {
+          id
+          color
+          title
+          contact
+        }
+      }
+    }
+  }
+`
+/*
     coworkers: markdownRemark(
       fileAbsolutePath: { regex: "/(sections/coworkers)/" }
     ) {
@@ -268,29 +295,4 @@ export const query = graphql`
         }
       }
     }
-    contact: markdownRemark(
-      fileAbsolutePath: { regex: "/(sections/contact)/" }
-    ) {
-      frontmatter {
-        ca {
-          id
-          title
-          color
-          contact
-        }
-        es {
-          id
-          color
-          title
-          contact
-        }
-        en {
-          id
-          color
-          title
-          contact
-        }
-      }
-    }
-  }
-`
+*/
