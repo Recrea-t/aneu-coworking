@@ -11,9 +11,9 @@ ca:
 
     **Àneu Coworking** pretén dotar a les Valls d'Àneu, d'un espai confortable, actual i amb els equipaments necessaris per poder desenvolupar l'activitat laboral de manera adequada i amb un preu assequible, potenciant així la creació d'ocupació i l'activitat econòmica i contribuint a fixar població al territori.
   images:
-    - /images/01.jpg
-    - /images/02.jpg
-    - /images/01.jpg
+    - /images/zona-treball-aneucoworking.jpg
+    - /images/sala-reunions_aneucoworking.jpg
+    - /images/office_aneucoworking.jpg
   color: amulet.500
   id: espai
 es:
