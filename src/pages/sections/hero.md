@@ -9,8 +9,9 @@ ca:
 
     a les Valls d'Àneu
   images:
-    - /images/01.jpg
-    - /images/02.jpg
+    - /images/passeig_riu_esterri.jpg
+    - /images/edifici_aneucoworking_capcalera.jpg
+    - /images/vista-general-espai.jpg
 es:
   hero: |-
     Tu espacio
