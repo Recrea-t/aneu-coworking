@@ -19,28 +19,28 @@ es:
   id: tarifas
   color: chambray.500
   title: Tarifas
-  description: "El espacio **Àneu Coworking** funciona con opción *full time*:
-    Acceso de lunes a domingo, 24 horas, los 365 dias del año."
+  description: "El espacio **Àneu Coworking** funciona con opción full time:
+    Acceso de lunes a domingo las 24 horas, 365 días del año."
   pricing:
     - price: 80,00 €/mes
       title: Cuota mensual
       description: ""
     - price: 30,00 €/semana
       title: Cuota semanal
-    - price: 25 €/pack
+    - price: 40,00 €/pack
       title: pack 25 horas
 en:
   id: pricing
   color: chambray.500
-  title: Pricing
-  description: "**Àneu Coworking** space works 24x7: You will have access from
-    Monday to Sunday, 24 hours, 365 days per year."
+  title: Rates
+  description: "**Àneu Coworking** space offers a full-time option: Access from
+    Monday to Sunday, 24 hours, 365 days a year."
   pricing:
     - price: 80,00 €/month
       title: Monthly Quota
       description: ""
     - price: 30,00 €/week
       title: Weekly Quota
-    - price: 25,00 €/pack
-      title: 25 hours pack
+    - price: 40,00 €/Pack
+      title: 25 hours-Pack
 ---
