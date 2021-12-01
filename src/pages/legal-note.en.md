@@ -1,51 +1,52 @@
 ---
 templateKey: general-page
 name: Pàgina d'avís legal
-title: Legal Note
-description:
+title: Legal Notice
+description: null
 ---
-## Legal Note
+## Legal Notice
 
-Benvingut la pàgina WEB de *Ajuntament d'Esterri d'Àneu*
+Welcome to *Ajuntament d'Esterri d'Àneu’s* website.\
 
-A continuació, us exposem les condicions d'ús d'aquest WEB. La navegació per aquesta pàgina WEB us atorga el rol d'usuari de la mateixa i per tant, accepteu les clàusules detallades en aquest document.
+Here are the conditions of use of the website. Surfing this website turns you into a user, which means that you accept the conditions that are detailed in this document.
 
-#### Identificació
+#### Identification
 
-De conformitat amb el que disposa l'article 10 de la Llei 34/2002 de 11 de juliol, de Servicios de Sociedad de la Información i Comercio Electronico, s'informa que *aneucoworking.cat* és un domini de l’empresa *Ajuntament d'Esterri d'Àneu* amb domicili social a *Plaça de la Closa 1, 25580 Esterri d'Àneu*
+In accordance with Article 10 of Law 34/2002 dated 11 July of the Servicios de Sociedad de la Información y Comercio Electrónico (Services of Information Society and Electronic Trade) is a domain of *Ajuntament d'Esterri d'Àneu*, a company with registered office in *Plaça de la Closa 1, 25580 Esterri d'Àneu.*\
 
-La societat es denomina *Ajuntament d'Esterri d'Àneu* amb CIF *P2510800B* i que figura inscrita al Registre Mercantil.
+The company, called *Ajuntament d'Esterri d'Àneu*, with Tax Identification Number *P2510800B*, is registered in the Mercantile Registry.
 
-#### Normes d'utilització
-L'usuari es compromet a fer un ús adequat i lícit del lloc WEB així com dels continguts i serveis, de conformitat amb la legislació aplicable en cada moment, la moral i bons costums generalment acceptades i l'ordre públic.
+#### Conditions of use
 
-Queda prohibit realitzar, per la vostra banda, qualsevol acció que pugui provocar alteracions dels continguts d'aquesta pàgina WEB o un mal funcionament de la mateixa, incloent la introducció de virus o similars.
+The user commits to make an appropriate and legal use of the website and of its contents and services, in compliance with the applicable law, with morals, with the generally accepted good practices and with public order.\
 
-#### Propietat intel·lectual
+It is forbidden to carry out any action that may alter the contents of this website or cause a malfunction of it, including the introduction of virus or similar.
 
-Les pàgines del WEB i la informació o els element que conte, incloent-hi textos, documents, fotografies, dibuixos, representacions gràfiques, base de dades, vídeos i també logotips, marques, noms comercials o altres signes distintius, estan protegits pels drets de propietat intel·lectual o industrial, dels quals *Ajuntament d'Esterri d'Àneu* o les empreses del seu grup en són titulars o amb llicències legítimes.
+#### Intellectual property
 
-Queda prohibida qualsevol modalitat d'explotació, incloent qualsevol tipus de reproducció, distribució, cessió a tercers, comunicació pública i transformació, mitjançant qualsevol tipus de suport mitjà sense l'autorització prèvia i expressa.
+The whole website and the information and elements it contains, including texts, documents, photos, drawings, graphic representations, data bases, videos as well as logos, brands, trade names and other distinguishing signs are protected by the intellectual and industrial property rights of which Ajuntament d'Esterri d'Àneu or the companies of its group are holders or have legal licenses.\
 
-#### Responsabilitat
+Any kind of exploitation, including any type of reproduction, distribution, cession to third parties, public communication and transformation, by means of any support, without any previous express authorisation is forbidden.
 
-La nostra intenció es la d'oferir un lloc WEB que ofereixi un funcionament continuat i la màxima qualitat.
+#### Responsibility
 
-De totes maneres, li informen que no podem garantir l’accés continuat, i que les pàgines es poden trobar impedides, o interrompudes per factors o circumstancies alienes a la nostra voluntat.
+We intend to offer a website that rimes with continued service and top quality.\
 
-*Ajuntament d'Esterri d'Àneu* no és responsable de la informació i altres continguts integrats en espais o pàgines WEB de tercers accessibles mitjançant enllaços, hipervincles o links.
+We inform you that we cannot guarantee a continued access to the website and that our sites may be blocked or interrupted by factors or circumstances beyond our control.\
 
-*Ajuntament d'Esterri d'Àneu* no es fa responsable dels perjudicis que es poden derivar, entre altres de:
+*Ajuntament d'Esterri d'Àneu* is not responsible for the information and other contents that appear in spaces or websites of third parties by means of connections, hyperlinks or links.\
 
-* Interferències, interrupcions, errades, omissions, averies telefòniques, retards, boquejos o desconnexions en el funcionament del sistema, motivades per deficiències, sobrecarregues i errades en les línies i xarxes de telecomunicacions.
-* Intromissions il·legítimes mitjançant l'ús de programes malignes de qualsevol tipus o a través de qualsevol mitjà de comunicació.
-* Ús indegut o inadequat del lloc WEB.
-* Errades produïdes per un mal funcionament del navegadors o per l'ús de versions no actualitzades del mateix.
+*Ajuntament d'Esterri d'Àneu* is not responsible for any harm that could be caused by, among others: 
 
-L'usuari, en cas de causar danys i perjudicis per un ús il·lícits o incorrecte del lloc WEB, podrà ser reclamat per danys i perjudicis causats.
+* Interferences, interruptions, errors, omissions, phone line failures, delays, cuts or disconnections of the system caused by failures, overloads and errors of the lines and telecommunication networks.
+* Illegal intromissions caused by the use of malign programmes or by any mean of communication.
+* Wrongful or inappropriate use of the website.
+* Errors caused by a failure of the browsers or by the use of non-updated versions.
 
-Així mateix, l'usuari respondrà davant de qualsevol dany i perjudici, que es derivi de l'ús per la seva part de "robots", "spiders", ... o eines similars emprades per tal de demanar o extreure dades o de qualsevol altra actuació per part seva que imposi una càrrega  no raonable sobre el funcionament del lloc WEB.
+In case of causing harm and damage due to an illegal or incorrect use of the website, the user may be sued.\
 
-#### Legislació
+In addition, the user will have to respond for any harm and damage caused by the use he/she may have made of “robots”, “spiders”, ... or similar tools used to ask for or take out data or caused by any other action that may suppose a non-reasonable load on the functioning of the website.
 
-Qualsevol controvèrsia que sorgeixi o tingui relació amb l'ús de la pàgina web serà sotmesa a la jurisdicció no exclusiva dels jutjats i tribunals espanyols.
+#### Law
+
+Any controversy originated by or related to the use of the website will be submitted to the non-exclusive jurisdiction of the Spanish tribunals and courts.
