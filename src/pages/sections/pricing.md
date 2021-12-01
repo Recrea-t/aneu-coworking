@@ -19,7 +19,7 @@ es:
   id: tarifas
   color: chambray.500
   title: Tarifas
-  description: "El espacio **Àneu Coworking** funciona con opción full time:
+  description: "El espacio **Àneu Coworking** funciona con opción *full time*:
     Acceso de lunes a domingo las 24 horas, 365 días del año."
   pricing:
     - price: 80,00 €/mes
