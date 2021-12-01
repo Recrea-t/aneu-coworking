@@ -2,50 +2,51 @@
 templateKey: general-page
 name: Pàgina d'avís legal
 title: Aviso legal
-description:
+description: null
 ---
 ## Aviso legal
 
-Benvingut la pàgina WEB de *Ajuntament d'Esterri d'Àneu*
+Bienvenido/a a la página WEB de *Ajuntament d'Esterri d'Àneu*.\
 
-A continuació, us exposem les condicions d'ús d'aquest WEB. La navegació per aquesta pàgina WEB us atorga el rol d'usuari de la mateixa i per tant, accepteu les clàusules detallades en aquest document.
+A continuación le exponemos las condiciones de uso de esta WEB. La navegación a través de esta página WEB le otorga el papel de usuario de la misma. Por consiguiente, acepta las cláusulas detalladas en el presente documento.
 
-#### Identificació
+#### Identificación
 
-De conformitat amb el que disposa l'article 10 de la Llei 34/2002 de 11 de juliol, de Servicios de Sociedad de la Información i Comercio Electronico, s'informa que *aneucoworking.cat* és un domini de l’empresa *Ajuntament d'Esterri d'Àneu* amb domicili social a *Plaça de la Closa 1, 25580 Esterri d'Àneu*
+De conformidad con lo que dispone el artículo 10 de la Ley 34/2002 del 11 de julio, de Servicios de Sociedad de la Información y Comercio Electrónico, se informa que *aneucoworking.cat* es un dominio de la empresa *Ajuntament d'Esterri d'Àneu* con domicilio social en *Plaça de la Closa 1, 25580 Esterri d'Àneu*.\
 
-La societat es denomina *Ajuntament d'Esterri d'Àneu* amb CIF *P2510800B* i que figura inscrita al Registre Mercantil.
+La sociedad, denominada *Ajuntament d'Esterri d'Àneu*, con CIF *P2510800B*, figura inscrita en el Registro Mercantil.
 
-#### Normes d'utilització
-L'usuari es compromet a fer un ús adequat i lícit del lloc WEB així com dels continguts i serveis, de conformitat amb la legislació aplicable en cada moment, la moral i bons costums generalment acceptades i l'ordre públic.
+#### Normas de uso
 
-Queda prohibit realitzar, per la vostra banda, qualsevol acció que pugui provocar alteracions dels continguts d'aquesta pàgina WEB o un mal funcionament de la mateixa, incloent la introducció de virus o similars.
+El usuario se compromete a hacer un uso adecuado y lícito de la página WEB así como de sus contenidos y servicios, de conformidad con la legislación aplicable en cada momento, la moral y las buenas costumbres generalmente aceptadas y el orden público.\
 
-#### Propietat intel·lectual
+Queda prohibido realizar, por su cuenta, cualquier acción que pueda provocar alteraciones de los contenidos de esta página WEB o un mal funcionamiento de la misma, incluyendo la introducción de virus o similares.
 
-Les pàgines del WEB i la informació o els element que conte, incloent-hi textos, documents, fotografies, dibuixos, representacions gràfiques, base de dades, vídeos i també logotips, marques, noms comercials o altres signes distintius, estan protegits pels drets de propietat intel·lectual o industrial, dels quals *Ajuntament d'Esterri d'Àneu* o les empreses del seu grup en són titulars o amb llicències legítimes.
+#### Propiedad intelectual
 
-Queda prohibida qualsevol modalitat d'explotació, incloent qualsevol tipus de reproducció, distribució, cessió a tercers, comunicació pública i transformació, mitjançant qualsevol tipus de suport mitjà sense l'autorització prèvia i expressa.
+Las páginas del WEB y la información o los elementos que contiene, incluyendo textos, documentos, fotografías, dibujos, representaciones gráficas, base de datos, vídeos así como logotipos, marcas, nombres comerciales u otros signos distintivos, están protegidos por los derechos de propiedad intelectual o industrial, de los cuales *Ajuntament d'Esterri d'Àneu* o las empresas de su grupo son titulares o tienen licencias legítimas.\
 
-#### Responsabilitat
+Queda prohibida cualquier modalidad de explotación, inclusive todo tipo reproducción, distribución, cesión a terceros, comunicación pública y transformación, mediante cualquier tipo de soporte sin autorización previa y expresa.
 
-La nostra intenció es la d'oferir un lloc WEB que ofereixi un funcionament continuat i la màxima qualitat.
+#### Responsabilidad
 
-De totes maneres, li informen que no podem garantir l’accés continuat, i que les pàgines es poden trobar impedides, o interrompudes per factors o circumstancies alienes a la nostra voluntat.
+Nuestra intención consiste en ofrecer una página WEB de funcionamiento continuo y máxima calidad.\
 
-*Ajuntament d'Esterri d'Àneu* no és responsable de la informació i altres continguts integrats en espais o pàgines WEB de tercers accessibles mitjançant enllaços, hipervincles o links.
+De todas formas, le informamos que no podemos garantizar el acceso continuo y que las páginas se pueden ver impedidas o interrumpidas por factores o circunstancias ajenas a nuestra voluntad.\
 
-*Ajuntament d'Esterri d'Àneu* no es fa responsable dels perjudicis que es poden derivar, entre altres de:
+*Ajuntament d'Esterri d'Àneu* no es responsable de la información y otros contenidos integrados en espacios o páginas WEB de terceros asequibles mediante enlaces, hipervínculos o links.\
 
-* Interferències, interrupcions, errades, omissions, averies telefòniques, retards, boquejos o desconnexions en el funcionament del sistema, motivades per deficiències, sobrecarregues i errades en les línies i xarxes de telecomunicacions.
-* Intromissions il·legítimes mitjançant l'ús de programes malignes de qualsevol tipus o a través de qualsevol mitjà de comunicació.
-* Ús indegut o inadequat del lloc WEB.
-* Errades produïdes per un mal funcionament del navegadors o per l'ús de versions no actualitzades del mateix.
+*Ajuntament d'Esterri d'Àneu* no asume ninguna responsabilidad en relación con los perjuicios que se puedan derivar, entre otras, de:
 
-L'usuari, en cas de causar danys i perjudicis per un ús il·lícits o incorrecte del lloc WEB, podrà ser reclamat per danys i perjudicis causats.
+* Interferencias, interrupciones, errores, omisiones, averías telefónicas, retrasos, bloqueos o desconexiones en el funcionamiento del sistema, motivados por deficiencias, sobrecargas y errores en las líneas y redes de telecomunicaciones.
+* Intromisiones ilegítimas mediante el uso de programas malignos de cualquier índole o a través de cualquier medio de comunicación.
+* Uso indebido o inadecuado de la página WEB.
+* Errores producidos por un mal funcionamiento del navegador o por el uso de versiones no actualizadas del mismo.
 
-Així mateix, l'usuari respondrà davant de qualsevol dany i perjudici, que es derivi de l'ús per la seva part de "robots", "spiders", ... o eines similars emprades per tal de demanar o extreure dades o de qualsevol altra actuació per part seva que imposi una càrrega  no raonable sobre el funcionament del lloc WEB.
+El usuario, en caso de causar daños y perjuicios por uso ilícito o incorrecto de la página WEB, podrá ser reclamado por los daños y perjuicios causados.\
 
-#### Legislació
+Asimismo, el usuario responderá ante cualquier daño y perjuicio derivado del uso por su parte de "robots", "spiders", ... o herramientas utilizadas con el fin de pedir o extraer datos o para cualquier otra actuación por su parte que imponga una carga no razonable en el funcionamiento de la página WEB.
 
-Qualsevol controvèrsia que sorgeixi o tingui relació amb l'ús de la pàgina web serà sotmesa a la jurisdicció no exclusiva dels jutjats i tribunals espanyols.
+#### Legislación
+
+Cualquier controversia que surja o tenga relación con el uso de la página WEB será sometida a la jurisdicción no exclusiva de los juzgados y tribunales españoles.
