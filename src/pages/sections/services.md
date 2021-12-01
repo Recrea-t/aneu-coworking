@@ -20,23 +20,36 @@ es:
   id: servicios
   color: sorbus.500
   title: Servicios
-  description: "**Lorem Ipsum** es simplemente el texto de relleno de las
-    imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno
-    estándar de las industrias desde el año 1500."
+  description: >-
+    Las instalaciones de **Àneu Coworking** disponen de un espacio compartido de
+    98 m2 dotado de equipamientos y servicios de calidad caracterizados por la
+    flexibilidad y la adaptabilidad de sus modalidades de uso, espacio y
+    horarios. Capacidad de hasta 10 *coworkers* o residentes.\
+
+    \
+
+    El espacio está dividido en tres zonas principales:
   table:
-    - Servicio 1
-    - Servicio 2
-    - Servicio 3
+    - Espacio de trabajo equipado con mobiliario básico, impresora,
+      fotocopiadora y escáner compartidos, así como conexión wi-fi a internet
+      con fibra.
+    - Zona office equipada con nevera, microondas y cafetera.
+    - Sala de reuniones equipada con pizarra y proyector.
 en:
   id: services
   color: sorbus.500
   title: Services
-  description: "**Lorem Ipsum** is simply dummy text of the printing and
-    typesetting industry. Lorem Ipsum has been the industry's standard dummy
-    text ever since the 1500s."
+  description: >-
+    **Àneu Coworking** facilities offer a 98m2 shared space provided with good
+    equipment and services that rimes with flexibility and adaptability in terms
+    of use, space and schedules and that can host up to 10 coworkers or
+    residents.
+
+
+    The space is divided into three main areas:
   table:
-    - Service 1
-    - Service 2
-    - Service 3
-    - Service 4
+    - Work space equipped with basic furniture, shared printer, photocopier and
+      scanner, and Internet connexion with fibre optic broadband.
+    - Kitchen area equipped with fridge, microwave oven and coffee machine.
+    - Conference room with whiteboard and projector.
 ---
