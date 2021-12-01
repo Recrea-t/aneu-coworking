@@ -14,20 +14,12 @@ ca:
     - /images/vista-general-espai.jpg
 es:
   hero: |-
-    Tu espacio
-
-
-    de trabajo
-
-
-    en los Pirineos
+    TU ESPACIO \
+    PARA TRABAJAR \
+    EN LOS VALLES DE ÀNEU
 en:
   hero: |-
-    Your working 
-
-
-    space
-
-
-    in the Pyrenees
+    YOUR SPACE \
+    TO WORK \
+    IN VALLS D’ÀNEU
 ---
