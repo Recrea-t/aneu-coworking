@@ -2,121 +2,130 @@
 templateKey: general-page
 name: Pàgina de la política de protecció de dades
 title: Privacy Policy
-description:
+description: Personal Data Protection Policy
 ---
-## Privacy Policy
+## Personal Data Protection Policy
 
-#### Abast de la política de protecció de dades personals
+#### Scope of the personal data protection policy
 
-Aquesta política de protecció de dades de caràcter personal abasta qualsevol tractament de dades que pugui produir-se en navegar o interaccionar per qualsevol de les nostres pàgines web o les xarxes socials en les que puguem tenir presència (Facebook, Twitter, Instagram, etc.). Al final d'aquest document s'especifica informació especial en el cas de l'ús de les xarxes socials. També s'aplicarà a qualsevol procediment intern de l'empresa que requereixi la recollida de dades, ja sigui en formularis en format paper o qualsevol altre sistema.
+This Personal Data Protection Policy applies to any data processing that may occur while surfing or interacting on any of our websites or on the social networks we may have some presence on (Facebook, Twitter, Instagram, etc.). At the end of this document, you will find some specific information on the use of social networks. The policy will also apply to any internal procedure of the company that requires data collection, whether on paper format or other support.\
 
-En qualsevol d'aquests mitjans, podeu consultar informació, i en alguns casos omplir formularis, contestar enquestes, participar en concursos, realitzar consultes, enviar fotografies, fer comentaris, etc. ... i, per tant, proporcionar-nos informació de dades de caràcter personal . Tots els tractaments estan subjectes a la nostra política de privacitat.
-
-#### Qui és el responsable del Tractament de les vostres dades personals?
-
-En compliment del que estableix el Reglament (UE) 2016/679 del Parlament Europeu i del Consell de 27 d'abril del 2016, informem, que les dades de caràcter personal que ens proporcioneu seran tractades per *Ajuntament d'Esterri d'Àneu*, amb domicili social *Plaça de la Closa 1, 25580 Esterri d'Àneu* CIF *P2510800B*, Correu electrònic *ajuntament@esterrianeu.cat*
-
-#### Qui és el Delegat de Protecció de Dades Personals?
-
-El Delegat de Protecció de Dades Personals és la persona encarregada de protegir el dret fonamental a la protecció de dades personals a *Ajuntament d'Esterri d'Àneu* i s'encarrega del compliment de la normativa de protecció de dades. Podreu contactar amb el delegat de Protecció de Dades Personals en la següent adreça: *ajuntament@esterrianeu.cat*
-
-#### Quines Dades Personals es recullen i finalitat de les mateixes?
-
-Detallem, les dades personals que gestionem, així com les seves finalitats.
-
-- **Formulari de contacte**:
-  - Correu electrònic
-  - Contestar a la vostra pregunta, legitimada en la vostra petició prèvia.
-
-El vostre consentiment pot ser revocat en qualsevol moment.
-
-*Ajuntament d'Esterri d'Àneu* utilitza eines per analitzar perfils, comportaments o preferències dels usuaris i posteriorment realitzar campanyes dirigides en funció d'aquestes dades.
-
-#### Per quina raó utilitzem les vostres dades personals?
-
-A continuació us expliquem la base legal que ens permet tractar les vostres dades personals.
-
-1. En compliment d'una relació contractual.
-2. Quan ens doneu el vostre consentiment.
-3. Per interès legítim de *Ajuntament d'Esterri d'Àneu* per mostrar serveis, productes i iniciatives que us puguin interessar.
-4. Compliment d'obligacions imposades per llei.
-
-Us recordem que podeu revocar el vostre consentiment en qualsevol moment a la següent adreça: *ajuntament@esterrianeu.cat*
-
-#### Publicacions de fotos o vídeos a la pàgina web o a les xarxes socials
-
-Per a la publicació de fotografies o vídeos dels nostres treballadors, clients, usuaris o menors al web o xarxes socials, igual que per recopilar dades per realitzar un concurs o tractar qualsevol altra dada personal, prèviament obtenim el consentiment previ, explícit, indiscutible i informat del titular que, en el cas dels menors de 14 anys, s'atorga pels pares o tutors legals.
-
-El tractament d'aquestes fotos, acata el principi de proporcionalitat, és a dir, només es tracten estrictament per a la finalitat per a la qual s'ha prestat el consentiment.
-
-#### Dades no pertinents
-
-*Ajuntament d'Esterri d'Àneu* adverteix l'usuari que, llevat l'existència d'una representació legalment constituïda, cap usuari pot utilitzar la identitat d'una altra persona i comunicar les seves dades personals, de manera que l'usuari en tot moment haurà de tenir en compte que només pot proporcionar dades personals corresponents a la seva pròpia identitat i que siguin adequades, pertinents, actuals, exactes i veritables
-
-#### Quant de temps conservarem les vostres dades?
-
-*Ajuntament d'Esterri d'Àneu* guarda les vostres Dades Personals mentre sigui necessari per a la fi per al qual van ser recopilats. Si la directriu és diferent de la indicada en aquesta política es detalla en el document pertinent.
-
-#### A qui comunicarem les vostres dades?
-
-*Ajuntament d'Esterri d'Àneu* només cedirà les vostres dades en aquells serveis en què s'indica i en els casos previstos per una llei.
-No es realitzaran transferències internacionals de les vostres dades personals.
-
-En el cas de les xarxes socials, tota la informació i continguts publicats per l'usuari seran objecte de comunicació i compartits amb la resta dels usuaris que consultin aquesta xarxa social, per la pròpia naturalesa del servei.
-
-#### Mesures de seguretat
-
-*Ajuntament d'Esterri d'Àneu* assegura l'absoluta confidencialitat i privacitat de les dades personals recollides i per això s'han adoptat mesures essencials de seguretat per evitar l'alteració, pèrdua, tractament o accés no autoritzat i garantir així la seva integritat i seguretat.
-
-L'Usuari es compromet a fer un ús diligent i a no posar a la disposició de tercers el seu nom d'usuari i contrasenya, així mateix es compromet a dur a disposició de l'empresa qualsevol, robatori, pèrdua o risc d'accés de tercers al seu usuari.
-
-#### Quins són els seus drets quan ens facilita les seves dades personals?
-
-* **Accés**: Podreu consultar les dades personals gestionades per nosaltres
-* **Rectificació**: Podreu modificar les vostres dades quan no siguin correctes
-* **Supressió**: Podreu demanar la eliminació de les dades de caràcter personal
-* **Oposició**: Podreu demanar que no es tractin les vostres dades de caràcter personal
-* **Limitació del tractament**: Es pot sol·licitar la limitació quan:
-  * Es comprova la impugnació a l'exactitud de les vostres dades
-  * Quan no necessitem tractar les vostres dades, però les necessiteu per l’exercici o defensa de reclamacions
-* **Portabilitat**: Podrà rebre en format electrònic les dades que ens hagi facilitat
-
-Si considereu que no hem tractat les vostres dades personals d’acord amb la normativa, podeu contactar amb el Delegat de Protecció de Dades a l’adreça *ajuntament@esterrianeu.cat*
-
-Si voleu, podreu presentar una reclamació a l'[Agència Espanyola de Protecció de Dades](www.agpd.es).
-
-Per exercitar els vostres drets, acompanyeu la vostra sol·licitud amb una còpia del DNI o document similar. L'exercici dels vostres drets és gratuït.
-
-#### Xarxes socials
-
-El funcionament de les xarxes socials no està sota el control directe de *Ajuntament d'Esterri d'Àneu* i, per tant, la informació que hi publiqueu serà compartida per tots els usuaris que les consultin. Així mateix, aquestes xarxes permeten la interacció amb altres usuaris, i per tant, a continuació, es detallen unes premisses que ha de tenir en compte.
-
-L'objecte de la utilització de les xarxes socials és donar visibilitat i difusió dels productes que desenvolupa *Ajuntament d'Esterri d'Àneu*.
-
-En principi, s'aplica la mateixa política de protecció de dades especificada en aquest document, pel que fa a la recollida, tractament i cessió de dades.
-
-L'usuari s'ha de comprometre a:
-
-* No publicar informacions que no responguin als requisits de veracitat, interès públic i respecte a la dignitat de les persones. Especialment, l'usuari haurà d'evitar tota conducta que pugui atemptar contra el principi de no discriminació per raons de sexe, raça, religió, ideologia o qualsevol altre circumstància personal o social, i contra la intimitat, l'honor i la pròpia imatge, sent el responsable final sobre la veracitat i legalitat dels continguts que publiqui
-* No gravar ni publicar imatges, vídeos o qualsevol altre tipus de registre sense el consentiment dels afectats
+Whatever the support, you can check the information or fill in forms, take surveys, participate in contests, submit a query, send pictures, make some comments, etc. and thus provide us personal information. All our data processing is submitted to our Privacy Policy.
 
 
-*Ajuntament d'Esterri d'Àneu* no s'identifica amb les opinions expressades per altres ni amb la ideologia dels perfils amb els quals tingui amistat en cap xarxa social.
+#### Who is responsible for the processing of your personal data?
 
-*Ajuntament d'Esterri d'Àneu* es reserva el dret d'eliminar de les seves xarxes socials qualsevol informació publicada per altres que vulneri la legalitat, inciti a fer-ho, o contingui missatges que atemptin contra la dignitat de persones o institucions. Així com de bloquejar o denunciar el perfil autor d'aquests missatges.
+In compliance with Regulation (UE) 2016/679 of the European Parliament and of the Council dated 27th April 2016, we inform that the personal data your provide us will be processed by *Ajuntament d'Esterri d'Àneu*, with registered office *Plaça de la Closa 1, 25580 Esterri d'Àneu*, Tax Identification number CIF *P2510800B,* email *ajuntament@esterrianeu.cat*.
+
+#### 
+Who is the Manager of Personal Data Protection?
+
+The Manager of Personal Data Protection is the person who is in charge of protecting the fundamental right to personal data protection in *Ajuntament d'Esterri d'Àneu* and of making sure that the regulation on data protection is fulfilled. Contact the Manager of Personal Data Protection: *ajuntament@esterrianeu.cat*.
+
+#### What personal data are collected and for what purpose?
+
+Here is the detail of the data we process as well their purpose.
+
+* **Contact form**:
+
+  * Email
+  * Answer your question, legitimised by your previous request.
 
 
-Recomanacions als usuaris i usuàries:
+Your consent can be revoked at any moment.\
 
-* Reviseu i llegiu les condicions generals d'ús i la política de privacitat de la xarxa social en el moment de registrar-se.
-* Aprendre les possibilitats de configuració i ús que la xarxa ofereixi.
-* Configureu adequadament el grau de privacitat del perfil d'usuari a la xarxa social.
-* No publiqueu informació excessiva sobre la seva vida personal i familiar.
-* Aneu amb compte amb la publicació de continguts audiovisuals i gràfics en el seu perfil, especialment si s'allotjaran imatges relatives a terceres persones.
-* No oferiu dades de tercers sense el previ consentiment d'aquests.
+*Ajuntament d'Esterri d'Àneu* uses tools to analyse users’ profiles, behaviours or preferences and to further run campaigns that are focused according to these data.
+
+#### 
+Why do we use your personal data?
+
+Here is the legal basis that allows us to process your personal data.
+
+1. In compliance with a contractual bond.
+2. When your give us your consent.
+3. In the legitimate interest of Ajuntament d'Esterri d'Àneu to show the services, products and initiatives that the user may be interested in.
+4. Fulfilment of obligations imposed by law.
 
 
-Les xarxes socials gestionades per *Ajuntament d'Esterri d'Àneu* són:
+Please remind that you can revoke your consent at any moment using the following address: *ajuntament@esterrianeu.cat*.
+
+#### Publications of photos or videos on the website and on the social networks
+
+To publish photos or videos of our workers, customers, users or minors on the website or on the social networks, as well as to collect data in order to run a contest or to process any other personal data, we previously get the explicit indisputable and informed consent of the holder, which, in case of children under 14, is obtained through the parents or legal tutors.
+\
+The processing of these pictures is ruled by the principle of proportionality, which means that the data are strictly processed for the purpose the consent has been given.
+
+#### 
+Irrelevant data 
+
+*Ajuntament d'Esterri d'Àneu* warns the user that, except in the case of the existence of a legally established representation, no user is allowed to use another person’s identity nor to communicate his/her personal data. This means that the user will always have to know that he/she can only provide personal data that are related to his/her own identity and that are appropriate, relevant, updates, correct and true. 
+
+
+#### How long will your data be kept?
+
+*Ajuntament d'Esterri d'Àneu* will keep your personal data as long as it will be necessary for the purpose they have been collected. If the guideline is different from the one of this policy, it will be detailed in the corresponding document.
+
+#### 
+Who will your data be communicated to?
+
+*Ajuntament d'Esterri d'Àneu* will only share your data for the agreed services and in the cases that are provided by law. Your personal data will not be transferred abroad.\
+
+Regarding social networks, all the information and contents that are published by the user may be communicated and shared with the other users who surf this social network, according to the nature of the service itself.
+
+#### 
+Security measures
+
+*Ajuntament d'Esterri d'Àneu* guarantees complete confidentiality and privacy of the collected personal data. To do so, vital security measures have been taken in order to avoid any alteration, loss, processing or unauthorised access and thus guarantee their integrity and security. 
+\
+The user commits to make a diligent use of the website, not to make his/her user name and password available to third parties, as well as to inform the company about any robbery, loss or risk of access by third parties.
+
+#### What are your rights once you provide your personal data?
+
+* **Access**: You can check your personal data that are processed by our company.
+* **Rectification**: You can modify your data when they are not correct.
+* **Cancellation**: You can request the cancellation of your personal data.
+* **Opposition**: You can request that your personal data are not processed.
+* **Limited processing**: You can request a limitation when:
+
+  * The contestation of the accuracy of your data has been proved.
+  * We do not need to process your data, but you need them for the exercise or defence of your complaints.
+* **Portability**: You can receive the data you have provided to us in electronic format
+
+If you consider that your personal data have not been processed in compliance with the regulation, contact the Data Protection Manager: *ajuntament@esterrianeu.cat*.\
+
+If you want, you can present a complaint to the [Spanish Agency of Data Protection](https://www.aepd.es/es).\
+\
+To exercise your rights, attach a copy of your ID or similar document to your request. The exercise of your rights is free.
+
+#### Social networks
+
+The functioning of social networks is not directly controlled by *Ajuntament d'Esterri d'Àneu*. Therefore, the information you may publish will be shared by all the users who surf them. Furthermore, those networks allow you to interact with other users, reason why we detail some premises to be considered. 
+\
+The aim of the use of social networks is to highlight and disseminate the products offered by *Ajuntament d'Esterri d'Àneu*.
+\
+In theory, the Data Protection Policy presented in this document also applies to data collection, processing and transfer.
+\
+The user has to commit:
+
+* Not to publish information that do not meet the conditions of veracity, public interest and respect of people’s dignity. In particular, the user will have to avoid any conduct that may violate the principle of non-discrimination related to gender, race, religion, ideology or any other personal or social circumstance, or offend privacy, honour and image. He/she will be the final responsible for the veracity and the legality of the contents he/she may publish.
+* Not to shoot or publish photos, videos or any other register without the consent of the people involved
+
+
+*Ajuntament d'Esterri d'Àneu* does not identify itself with the opinions expressed by others nor with the ideology of the profiles the user would have some friendship with in a social network.\
+\
+*Ajuntament d'Esterri d'Àneu* reserves the right to delete from its social networks any information published by others which may violate the law, encourage to do so or contain messages that violate people or institutions’ dignity, as well as the right to block or report the profile that created those messages.
+\
+User recommendations:
+
+* Check and read the General Conditions of Use and the Privacy Policy of the social network upon registering.
+* Learn about the settings and use offered by the network.
+* Set the level of privacy of the user profile correctly on the social network.
+* Do not publish excessive information about your personal and family life.
+* Be careful with the publication of video and graphic contents in your profile, especially if there are images of third parties.
+* Do not offer third parties’ information without their consent.
+
+The social networks managed by *Ajuntament d'Esterri d'Àneu* are the following:
+
 
 * **Facebook**: https://www.facebook.com/ajuntamentesterridaneu
 * **Instagram**: https://www.instagram.com/ajuntamentesterridaneu
