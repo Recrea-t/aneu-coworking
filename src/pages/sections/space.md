@@ -26,7 +26,7 @@ es:
     cooperación y el intercambio de ideas y proyectos.
 
 
-    **Àneu Coworking** tiene como objetivo dotar los Valles de Àneu de un espacio confortable, actual y con los equipamientos necesarios para desarrollar la actividad laboral de manera adecuada y a un precio asequible, potenciando así la creación de ocupación y la actividad económica y contribuyendo a consolidar la población en el territorio.
+    **Àneu Coworking** tiene como objetivo dotar las Valls d'Àneu de un espacio confortable, actual y con los equipamientos necesarios para desarrollar la actividad laboral de manera adecuada y a un precio asequible, potenciando así la creación de ocupación y la actividad económica y contribuyendo a consolidar la población en el territorio.
   color: amulet.500
   id: espacio
 en:
