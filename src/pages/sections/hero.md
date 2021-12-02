@@ -16,7 +16,7 @@ es:
   hero: |-
     TU ESPACIO \
     PARA TRABAJAR \
-    EN LOS VALLES DE ÀNEU
+    EN VALLS D’ÀNEU
 en:
   hero: |-
     YOUR SPACE \
