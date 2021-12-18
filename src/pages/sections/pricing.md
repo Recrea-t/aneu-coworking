@@ -30,7 +30,7 @@ es:
     - price: 40,00 €/pack
       title: pack 25 horas
 en:
-  id: pricing
+  id: rates
   color: chambray.500
   title: Rates
   description: "**Àneu Coworking** space offers a full-time option: Access from

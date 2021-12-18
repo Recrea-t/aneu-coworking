@@ -2,8 +2,7 @@
   "menuItems": [
     { "name": "The Space", "link": "/#space" },
     { "name": "Services", "link": "/#services" },
-    { "name": "Pricing", "link": "/#pricing" },
-    { "name": "Coworkers", "link": "/#coworkers" },
+    { "name": "Rates", "link": "/#rates" },
     { "name": "Contact", "link": "/#contact" }
   ]
 }

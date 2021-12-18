@@ -3,15 +3,16 @@ ca:
   id: contacte
   color: sorbus.500
   title: Contacte
-  contact: \
+  contact: true
 es:
   id: contacto
   color: sorbus.500
   title: Contacto
-  contact: ""
+  contact: true
 en:
   id: contact
   color: sorbus.500
   title: Contact
-  contact: ""
+  contact: true
+
 ---

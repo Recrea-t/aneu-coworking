@@ -31,12 +31,14 @@ const Contact = props => {
         mr={[0, null, 8]}
         mb={[8, null, 0]}
       >
-        <ReactMarkdown
-          components={ChakraUIRenderer()}
-          children={props.description}
-          linkTarget="_blank"
-          className="contact-info"
-        />
+        {/*
+          <ReactMarkdown
+            components={ChakraUIRenderer()}
+            children={props.description}
+            linkTarget="_blank"
+            className="contact-info"
+          />
+					*/}
 
         <Text
           mb={4}

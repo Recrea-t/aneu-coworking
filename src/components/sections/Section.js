@@ -173,7 +173,7 @@ const Section = props => {
 
       {props.contact && (
         <Container mb={8}>
-          <Contact description={props.contact} />
+          <Contact />
         </Container>
       )}
     </Box>
