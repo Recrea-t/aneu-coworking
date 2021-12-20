@@ -55,7 +55,7 @@ const Hero = ({ title, frontmatter }) => {
                   bottom: "-1px",
                   zIndex: 1,
                   background:
-                    "linear-gradient(178deg, rgba(255, 255, 255, 0) 10%, #fff 95%)",
+                    "linear-gradient(178deg, rgba(255, 255, 255, 0) 65%, #fff 95%)",
                 }}
                 as={GatsbyImage}
                 loading={index === 0 ? "eager" : "lazy"}
