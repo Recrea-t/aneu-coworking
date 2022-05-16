@@ -10,15 +10,23 @@ ca:
       instagram: https://www.instagram.com/lidia_sala_/
       facebook: https://www.facebook.com/lidiasalaagullana
       linkedin: https://www.linkedin.com/in/lidia-sala-agullana-288536220
-    - title: Marta Bruna
-      image: coworkers/20220509_154201.jpg
-      description: Dissenyadora gràfica i community manager
-      url: www.recreant.cat
-      email: marta@recreant.cat
+      email: lidiasala@outlook.es
+    - facebook: https://www.facebook.com/RecreantDissenyComunicacio
       phone: 646429298
+      url: www.recreant.cat
       instagram: https://www.instagram.com/Recreant_Disseny_Comunicacio/
-      facebook: https://www.facebook.com/RecreantDissenyComunicacio
+      title: Marta Bruna
+      image: coworkers/20220509_154201.jpg
+      email: marta@recreant.cat
+      description: Dissenyadora gràfica i community manager
       linkedin: https://www.linkedin.com/in/martabruna/
+    - title: Anna Torné
+      description: Cofundadora TNTEX i Lactotex
+      url: " https://lactotex.cat/"
+      email: atorne@textiltorne.com
+      linkedin: https://www.linkedin.com/company/lactotex/
+      facebook: https://www.facebook.com/lactotex.es/
+      instagram: https://www.instagram.com/lactotex/
 es:
   id: coworkers
   color: amulet.500
@@ -30,15 +38,23 @@ es:
       instagram: https://www.instagram.com/lidia_sala_/
       facebook: https://www.facebook.com/lidiasalaagullana
       linkedin: https://www.linkedin.com/in/lidia-sala-agullana-288536220
-    - title: Marta Bruna
-      description: Diseñadora gráfica y community manager
-      image: coworkers/20220509_154201.jpg
-      url: www.recreant.cat
-      email: marta@recreant.cat
+      email: lidiasala@outlook.es
+    - facebook: https://www.facebook.com/RecreantDissenyComunicacio
       phone: 64642929t8
+      url: www.recreant.cat
       instagram: https://www.instagram.com/Recreant_Disseny_Comunicacio/
-      facebook: https://www.facebook.com/RecreantDissenyComunicacio
+      title: Marta Bruna
+      image: coworkers/20220509_154201.jpg
+      email: marta@recreant.cat
+      description: Diseñadora gráfica y community manager
       linkedin: https://www.linkedin.com/in/martabruna/
+    - instagram: https://www.instagram.com/lactotex/
+      facebook: https://www.facebook.com/lactotex.es/
+      linkedin: https://www.linkedin.com/company/lactotex/
+      url: https://lactotex.es
+      email: atorne@textiltorne.com
+      description: Cofundadora TNTEX y Lactotex
+      title: Anna Torné
 en:
   id: coworkers
   color: amulet.500
@@ -50,13 +66,21 @@ en:
       instagram: https://www.instagram.com/lidia_sala_/
       facebook: https://www.facebook.com/lidiasalaagullana
       linkedin: https://www.linkedin.com/in/lidia-sala-agullana-288536220
-    - title: Marta Bruna
-      description: Graphic designer and community manager
-      image: coworkers/20220509_154201.jpg
-      url: www.recreant.cat
-      email: marta@recreant.cat
+      email: lidiasala@outlook.es
+    - facebook: https://www.facebook.com/RecreantDissenyComunicacio
       phone: ""
+      url: www.recreant.cat
       instagram: https://www.instagram.com/Recreant_Disseny_Comunicacio/
-      facebook: https://www.facebook.com/RecreantDissenyComunicacio
+      title: Marta Bruna
+      image: coworkers/20220509_154201.jpg
+      email: marta@recreant.cat
+      description: Graphic designer and community manager
       linkedin: https://www.linkedin.com/in/martabruna/
+    - title: Anna Torné
+      description: Cofounder TNTEX and Lactotex
+      email: atorne@textiltorne.com
+      url: https://lactotex.com
+      instagram: https://www.instagram.com/lactotex/
+      facebook: https://www.facebook.com/lactotex.es/
+      linkedin: https://www.linkedin.com/company/lactotex/
 ---
