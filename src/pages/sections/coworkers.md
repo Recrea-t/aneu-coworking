@@ -14,6 +14,7 @@ ca:
       image: coworkers/20220509_154201.jpg
       description: Dissenyadora gràfica i community manager
       url: www.recreant.cat
+      email: marta@recreant.cat
       phone: 646429298
       instagram: https://www.instagram.com/Recreant_Disseny_Comunicacio/
       facebook: https://www.facebook.com/RecreantDissenyComunicacio
@@ -33,7 +34,8 @@ es:
       description: Diseñadora gráfica y community manager
       image: coworkers/20220509_154201.jpg
       url: www.recreant.cat
-      phone: 646429298
+      email: marta@recreant.cat
+      phone: 64642929t8
       instagram: https://www.instagram.com/Recreant_Disseny_Comunicacio/
       facebook: https://www.facebook.com/RecreantDissenyComunicacio
       linkedin: https://www.linkedin.com/in/martabruna/
@@ -52,6 +54,7 @@ en:
       description: Graphic designer and community manager
       image: coworkers/20220509_154201.jpg
       url: www.recreant.cat
+      email: marta@recreant.cat
       phone: ""
       instagram: https://www.instagram.com/Recreant_Disseny_Comunicacio/
       facebook: https://www.facebook.com/RecreantDissenyComunicacio

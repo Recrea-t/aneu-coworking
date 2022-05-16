@@ -208,9 +208,6 @@ export const query = graphql`
         }
       }
     }
-  }
-`
-/*
     coworkers: markdownRemark(
       fileAbsolutePath: { regex: "/(sections/coworkers)/" }
     ) {
@@ -228,7 +225,6 @@ export const query = graphql`
             instagram
             facebook
             linkedin
-            twitter
             image {
               childImageSharp {
                 gatsbyImageData(
@@ -254,7 +250,6 @@ export const query = graphql`
             instagram
             facebook
             linkedin
-            twitter
             image {
               childImageSharp {
                 gatsbyImageData(
@@ -280,7 +275,6 @@ export const query = graphql`
             instagram
             facebook
             linkedin
-            twitter
             image {
               childImageSharp {
                 gatsbyImageData(
@@ -295,4 +289,5 @@ export const query = graphql`
         }
       }
     }
-*/
+  }
+`

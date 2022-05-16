@@ -257,9 +257,14 @@ collections:
                   i18n: true
                 - label: Imatge
                   name: image
+                  required: false
                   widget: image
                   allow_multiple: false
                   media_folder: coworkers
+                - label: "Email"
+                  name: email
+                  required: false
+                  widget: string
                 - label: Website
                   hint: "Introdueix l'adreça sense el **https://**"
                   required: false
@@ -281,10 +286,6 @@ collections:
                 - label: "Usuari de Linkedin"
                   required: false
                   name: linkedin
-                  widget: string
-                - label: "Usuari de Twitter"
-                  required: false
-                  name: twitter
                   widget: string
         - name: 'contact'
           label: "Contacte"

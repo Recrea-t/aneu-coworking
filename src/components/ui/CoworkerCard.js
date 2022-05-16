@@ -65,14 +65,16 @@ const CoworkerCard = props => {
       borderColor="amulet.500"
       {...motionRevealConfig(controls, "bottom", index)}
     >
-      <Image
-        h="full"
-        cursor="nwse-resize"
-        clipPath="polygon(50% 0, 100% 0, 100% 50%, 50% 100%, 0 100%, 0 50%)"
-        as={GatsbyImage}
-        image={getImage(image)}
-        alt={title}
-      />
+      {image && (
+        <Image
+          h="full"
+          cursor="nwse-resize"
+          clipPath="polygon(50% 0, 100% 0, 100% 50%, 50% 100%, 0 100%, 0 50%)"
+          as={GatsbyImage}
+          image={getImage(image)}
+          alt={title}
+        />
+      )}
 
       <VStack
         h="full"

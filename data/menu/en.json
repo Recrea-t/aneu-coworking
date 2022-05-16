@@ -3,6 +3,7 @@
     { "name": "The Space", "link": "/#space" },
     { "name": "Services", "link": "/#services" },
     { "name": "Rates", "link": "/#rates" },
+    { "name": "Coworkers", "link": "/#coworkers" },
     { "name": "Contact", "link": "/#contact" }
   ]
 }
