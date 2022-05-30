@@ -79,7 +79,7 @@ en:
     - title: Anna Torné
       description: Cofounder TNTEX and Lactotex
       email: atorne@textiltorne.com
-      url: lactotex.cat
+      url: lactotex.com
       instagram: https://www.instagram.com/lactotex/
       facebook: https://www.facebook.com/lactotex.es/
       linkedin: https://www.linkedin.com/company/lactotex/
