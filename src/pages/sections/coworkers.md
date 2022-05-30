@@ -22,7 +22,7 @@ ca:
       linkedin: https://www.linkedin.com/in/martabruna/
     - title: Anna Torné
       description: Cofundadora TNTEX i Lactotex
-      url: " https://lactotex.cat/"
+      url: lactotex.cat
       email: atorne@textiltorne.com
       linkedin: https://www.linkedin.com/company/lactotex/
       facebook: https://www.facebook.com/lactotex.es/
@@ -51,7 +51,7 @@ es:
     - instagram: https://www.instagram.com/lactotex/
       facebook: https://www.facebook.com/lactotex.es/
       linkedin: https://www.linkedin.com/company/lactotex/
-      url: https://lactotex.es
+      url: lactotex.es
       email: atorne@textiltorne.com
       description: Cofundadora TNTEX y Lactotex
       title: Anna Torné
@@ -79,7 +79,7 @@ en:
     - title: Anna Torné
       description: Cofounder TNTEX and Lactotex
       email: atorne@textiltorne.com
-      url: https://lactotex.com
+      url: lactotex.cat
       instagram: https://www.instagram.com/lactotex/
       facebook: https://www.facebook.com/lactotex.es/
       linkedin: https://www.linkedin.com/company/lactotex/
