@@ -76,6 +76,16 @@ const CoworkerCard = props => {
         />
       )}
 
+      {!image && (
+        <Image
+          h="full"
+          cursor="nwse-resize"
+          clipPath="polygon(50% 0, 100% 0, 100% 50%, 50% 100%, 0 100%, 0 50%)"
+          bgColor="amulet.500"
+          minW="100px"
+        />
+      )}
+
       <VStack
         h="full"
         spacing={2}
