@@ -28,7 +28,7 @@ es:
     - price: 30,00 €/semana
       title: Cuota semanal
     - price: 40,00 €/pack
-      title: pack 25 horas
+      title: Pack 25 horas
 en:
   id: rates
   color: chambray.500
