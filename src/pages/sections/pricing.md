@@ -12,7 +12,7 @@ ca:
     - title: Quota setmanal
       price: 30,00 €/setmama
       description: ""
-    - title: Quota diària
+    - title: Quota diaria
       price: 10,00 €/dia
       description: ""
 es:
