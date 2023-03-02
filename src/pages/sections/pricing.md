@@ -12,8 +12,8 @@ ca:
     - title: Quota setmanal
       price: 30,00 €/setmama
       description: ""
-    - title: Pack 25 hores
-      price: 40,00 €/pack
+    - title: Quota diària
+      price: 10,00 €/dia
       description: ""
 es:
   id: tarifas
@@ -27,8 +27,8 @@ es:
       description: ""
     - price: 30,00 €/semana
       title: Cuota semanal
-    - price: 40,00 €/pack
-      title: Pack 25 horas
+    - price: 10,00 €/día
+      title: Cuota diaria
 en:
   id: rates
   color: chambray.500
@@ -41,6 +41,6 @@ en:
       description: ""
     - price: 30,00 €/week
       title: Weekly Quota
-    - price: 40,00 €/Pack
-      title: 25 hours-Pack
+    - price: 10,00 €/day
+      title: Daily Quota
 ---
