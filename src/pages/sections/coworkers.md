@@ -14,7 +14,7 @@ ca:
     - facebook: https://www.facebook.com/RecreantDissenyComunicacio
       phone: 646429298
       url: www.recreant.cat
-      instagram: "https://www.instagram.com/recreant_disseny_comunicacio/ "
+      instagram: https://www.instagram.com/recreant_disseny_comunicacio/
       title: Marta Bruna
       image: coworkers/marta.jpg
       email: marta@recreant.cat
@@ -43,13 +43,13 @@ es:
     - facebook: https://www.facebook.com/RecreantDissenyComunicacio
       phone: 64642929t8
       url: www.recreant.cat
-      instagram: "https://www.instagram.com/recreant_disseny_comunicacio/ "
+      instagram: https://www.instagram.com/recreant_disseny_comunicacio/
       title: Marta Bruna
       image: coworkers/marta.jpg
       email: marta@recreant.cat
       description: Diseñadora gráfica y community manager
       linkedin: https://www.linkedin.com/in/martabruna/
-    - instagram: "https://www.instagram.com/tntex_eu/ "
+    - instagram: https://www.instagram.com/tntex_eu/
       facebook: ""
       linkedin: "https://www.linkedin.com/company/torne-grup/ "
       url: "https://textiltorne.com "
@@ -72,7 +72,7 @@ en:
     - facebook: https://www.facebook.com/RecreantDissenyComunicacio
       phone: ""
       url: www.recreant.cat
-      instagram: "https://www.instagram.com/recreant_disseny_comunicacio/ "
+      instagram: https://www.instagram.com/recreant_disseny_comunicacio/
       title: Marta Bruna
       image: coworkers/marta.jpg
       email: marta@recreant.cat
