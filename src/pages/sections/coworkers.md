@@ -4,8 +4,8 @@ ca:
   color: amulet.500
   title: Coworkers
   coworkers:
-    - title: Lídia Sala
-      description: Networker
+    - title: Lídia Sala Agullana
+      description: Network Marketing
       image: coworkers/imatge-lidia-sala-agullana.jpeg
       instagram: https://www.instagram.com/lidia_sala_/
       facebook: https://www.facebook.com/lidiasalaagullana
@@ -14,26 +14,27 @@ ca:
     - facebook: https://www.facebook.com/RecreantDissenyComunicacio
       phone: 646429298
       url: www.recreant.cat
-      instagram: https://www.instagram.com/Recreant_Disseny_Comunicacio/
+      instagram: "https://www.instagram.com/recreant_disseny_comunicacio/ "
       title: Marta Bruna
-      image: coworkers/20220509_154201.jpg
+      image: coworkers/marta.jpg
       email: marta@recreant.cat
       description: Dissenyadora gràfica i community manager
       linkedin: https://www.linkedin.com/in/martabruna/
     - title: Anna Torné
-      description: Cofundadora TNTEX i Lactotex
-      url: lactotex.cat
+      description: Directora financera
+      url: "https://textiltorne.com "
       email: atorne@textiltorne.com
-      linkedin: https://www.linkedin.com/company/lactotex/
-      facebook: https://www.facebook.com/lactotex.es/
-      instagram: https://www.instagram.com/lactotex/
+      linkedin: "https://www.linkedin.com/company/torne-grup/ "
+      facebook: ""
+      instagram: https://www.instagram.com/tntex_eu/
+      image: coworkers/anna.jpg
 es:
   id: coworkers
   color: amulet.500
   title: Coworkers
   coworkers:
-    - title: Lídia Sala
-      description: Networker
+    - title: Lídia Sala Agullana
+      description: Network Marketing
       image: coworkers/imatge-lidia-sala-agullana.jpeg
       instagram: https://www.instagram.com/lidia_sala_/
       facebook: https://www.facebook.com/lidiasalaagullana
@@ -42,26 +43,27 @@ es:
     - facebook: https://www.facebook.com/RecreantDissenyComunicacio
       phone: 64642929t8
       url: www.recreant.cat
-      instagram: https://www.instagram.com/Recreant_Disseny_Comunicacio/
+      instagram: "https://www.instagram.com/recreant_disseny_comunicacio/ "
       title: Marta Bruna
-      image: coworkers/20220509_154201.jpg
+      image: coworkers/marta.jpg
       email: marta@recreant.cat
       description: Diseñadora gráfica y community manager
       linkedin: https://www.linkedin.com/in/martabruna/
-    - instagram: https://www.instagram.com/lactotex/
-      facebook: https://www.facebook.com/lactotex.es/
-      linkedin: https://www.linkedin.com/company/lactotex/
-      url: lactotex.es
+    - instagram: "https://www.instagram.com/tntex_eu/ "
+      facebook: ""
+      linkedin: "https://www.linkedin.com/company/torne-grup/ "
+      url: "https://textiltorne.com "
       email: atorne@textiltorne.com
-      description: Cofundadora TNTEX y Lactotex
+      description: Directora financiera
       title: Anna Torné
+      image: coworkers/anna.jpg
 en:
   id: coworkers
   color: amulet.500
   title: Coworkers
   coworkers:
-    - title: Lídia Sala
-      description: Networker
+    - title: Lídia Sala Agullana
+      description: Network Marketing
       image: coworkers/imatge-lidia-sala-agullana.jpeg
       instagram: https://www.instagram.com/lidia_sala_/
       facebook: https://www.facebook.com/lidiasalaagullana
@@ -70,17 +72,18 @@ en:
     - facebook: https://www.facebook.com/RecreantDissenyComunicacio
       phone: ""
       url: www.recreant.cat
-      instagram: https://www.instagram.com/Recreant_Disseny_Comunicacio/
+      instagram: "https://www.instagram.com/recreant_disseny_comunicacio/ "
       title: Marta Bruna
-      image: coworkers/20220509_154201.jpg
+      image: coworkers/marta.jpg
       email: marta@recreant.cat
       description: Graphic designer and community manager
       linkedin: https://www.linkedin.com/in/martabruna/
     - title: Anna Torné
-      description: Cofounder TNTEX and Lactotex
+      description: Financial director
       email: atorne@textiltorne.com
-      url: lactotex.com
-      instagram: https://www.instagram.com/lactotex/
-      facebook: https://www.facebook.com/lactotex.es/
-      linkedin: https://www.linkedin.com/company/lactotex/
+      url: "https://textiltorne.com "
+      instagram: https://www.instagram.com/tntex_eu/
+      facebook: ""
+      linkedin: "https://www.linkedin.com/company/torne-grup/ "
+      image: coworkers/anna.jpg
 ---
